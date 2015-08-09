@@ -238,8 +238,11 @@ h2 + p, h3 + p, h2 + ul, h3 + ul {
 	display:table;	
 	height:100%;
 }
-.column_content + .bottom-nav { margin-top:2.5em; }
-.last-project-column + .bottom-nav { margin-top:0em; }
+.last-project-column + .bottom-nav { margin-top:0em;
+	@media screen and (min-width: $width-medium) { 
+		margin-top:2.5em;
+	}
+}
 .thumb-text-wrap {
 	padding:1.4em;	
 	h3 {
