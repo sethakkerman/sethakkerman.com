@@ -1,0 +1,17 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><nav>
+	<h1 class="header-logo"><a href="http://www.sethakkerman.com/">Seth Akkerman</a></h1>
+	<div class="naviconwrap">
+ 		<a class="navicon-button x">
+      	<div class="navicon"></div>
+    	</a>
+    </div>
+	<div class="site-nav-wrapper">
+		<ul class="site-nav">
+			<li><a class="current" href="../index.html">Projects</a></li>
+            <li><a href="../about.html">About</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+            <li><a href="http://pseudosuede.bigcartel.com/" target="_blank">Shop</a></li>
+            <li><a href="http://blog.sethakkerman.com/" target="_blank">Blog</a></li>
+		</ul>
+	</div>
+</nav>

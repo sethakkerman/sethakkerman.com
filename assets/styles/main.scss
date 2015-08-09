@@ -1,0 +1,894 @@
+/*
+Well hello there! Thanks for taking a look around. If you are curious about the SCSS document feeding this main.css, just swap out the suffix in your browser's address bar.
+*/
+
+// =======================================================================
+// CSS by Seth Akkerman
+// Hugely inspired by the organizational skills of Elliot Jay Stocks
+// Last updated: 06/21/2015
+// =======================================================================
+// Contents:
+// 01 Meyer Reset
+// 02 SASS Mixins
+// 03 SASS Variables
+// 04 Typography
+//	- Rendering
+//	- Families
+//	- Headings
+//	- Links
+//	- Paragraphs, Lists, Other
+// 05 Basic Layout
+// 06 Header / Nav
+// 07 Poster Image Centering / Cropping
+// 08 Mike Doughty Owl Interaction
+// 09 Flexslider
+// 10 MailChimp Form Styles
+// =======================================================================
+
+// =========================
+//	01 Meyer Reset
+// =========================
+
+@import "meyer-reset.scss";
+
+// =========================
+//	02 SASS Mixins
+// =========================
+
+@mixin rounded($radius) {
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+	border-radius: $radius;
+}
+@mixin small-sub-text {
+	font: 400 100%/1.65 $font-sans;
+	color:rgba(97,97,97,1.0);
+	text-transform:uppercase;
+	letter-spacing:.05em;
+} /*These values aside from color should be reflected in the .copyright*/
+@mixin general-header-qualities {
+	font-weight:700;
+	font-style:normal;
+	-webkit-transition: all .2s ease-in-out;
+  	-moz-transition: all .2s ease-in-out;
+  	-o-transition: all .2s ease-in-out;
+  	transition: all .2s ease-in-out;	
+}
+
+// =========================
+//	03 SASS Variables
+// =========================
+
+$width-tiny: 22.500em; /* 360px / 16 = 22.500em */
+$width-medium: 56.250em; /* 900px / 16 = 56.250em */
+$font-sans: "ff-tisa-sans-web-pro","Helvetica Neue",Helvetica,sans-serif;
+$font-serif: "ff-tisa-web-pro",Georgia,serif;
+$section-spacing-wide: 2.5em; /*This number should be reflected in .left_container, .right_container, and .bottom-nav as well.*/
+$section-spacing-narrow: 1.4em; /**This number should be reflected in button.show-me-more as well.*/	
+$hover: 0.85;
+
+// =========================
+//	04 Typography
+// =========================
+
+/* There seems to be a bug rendering fonts in mozilla on macs. The moz-osx css line fixed the visual issue. This may only be necessary when there is only one font served from typekit and the weights are specified by numerical values. */
+html { 
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+body { 
+	font:400 100%/1.60 $font-serif;
+	color:rgba(33,33,33,1.0);
+	text-rendering:optimizeLegibility;
+}
+h1, h2 {
+	font-size: 150%;	
+	@include general-header-qualities;
+	@media screen and (min-width: $width-medium) { 
+		font-size: 200%;
+	}
+}	
+h3 {
+	font-size: 150%;	
+	@include general-header-qualities;
+	@media screen and (min-width: $width-medium) { 
+		font-size:138%;
+	}
+}
+p, ul {
+	font-size:120%;
+	color:rgba(97,97,97,1.0);
+	padding-bottom:1.5em;
+	a {
+		color:rgba(158,158,158,1.0);
+		&:hover {
+			color:rgba(0,0,0,1.0);	
+		}	
+	}
+	@media screen and (min-width: $width-medium) { 
+		max-width:41.667em;
+	}
+ 	&.project-detail-heading {
+		font-family: $font-sans;
+		font-size:85%;
+		letter-spacing: .138em;
+		font-weight:700;
+		padding-bottom:0;
+		text-transform:uppercase;
+		color:rgba(0,0,0,1.0);	
+	}
+	&.project-detail-content {
+		padding-bottom:.9em;	
+		&:last-child {
+			padding-bottom:1.25em;	
+		}
+	}
+	&.photo-credit {
+		font-family: $font-sans;
+		font-size:50%;
+		letter-spacing: .138em;
+		text-transform:uppercase;
+		color:rgba(153,153,153,1.0);	
+		padding-left:1.2em;
+		padding-right: 1.2em;
+		padding-bottom: 0;	
+		@media screen and (min-width: $width-medium) { 
+			padding-left:1.8em;
+			padding-right: 1.8em;
+			max-width:87.667em;		
+		}
+	}
+}
+
+em {
+	font-style:italic;	
+}
+
+.darker-highlight {
+	color:rgba(0,0,0,1.0);	
+}
+
+// =========================
+//	05 Basic Layout
+// =========================
+
+* { 
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+} /* Apply a natural box layout model to all elements see http://paulirish.com/2012/box-sizing-border-box-ftw */
+
+div,
+article,
+section,
+header,
+footer,
+nav,
+figure,
+li { position:relative; } /* For absolutely positioning elements within containers  */
+
+body { padding:0; margin:0;	background-color: rgba(221,221,221,1.0); }
+
+header, footer, .documentation {
+	padding: $section-spacing-narrow;
+	@media screen and (min-width: $width-medium) { 
+		padding: $section-spacing-wide;
+	}
+}
+header {
+	background-color:rgba(238,238,238,1.0);
+}
+ul { list-style:none; }
+li { list-style-type:none; }
+img { width:100%; display:block; } /* img { display:block; } This is to get rid of the weird, tiny 4px white space between the images horizontally */
+img + img {
+	margin-top:.15em;	
+}
+.natural-img-img {
+	margin-top:0;	
+}
+.logo-presentation {
+	width:100%;
+	margin:0 auto;
+	@media screen and (min-width: $width-medium) { 
+		width:65%;
+	}
+}
+.embedded_video {
+	& figure {
+		max-width:62.5em;
+		margin:0 auto;	
+	}
+}
+a { text-decoration:none;
+	-webkit-transition: all .2s ease-in-out;
+  	-moz-transition: all .2s ease-in-out;
+  	-o-transition: all .2s ease-in-out;
+  	transition: all .2s ease-in-out; 
+}
+
+h2 + p, h3 + p, h2 + ul, h3 + ul {
+	padding-left:.6em;
+	padding-right: .6em;	
+		@media screen and (min-width: $width-medium) { 
+			padding-left:.7em;
+			padding-right: .7em;		
+		}		
+}
+
+.main-wrapper {
+	position:relative;
+	margin: 0 auto;
+	max-width:90em; /* 1440px / 16 = 90em */
+	width:100%;
+	background-color:rgba(255,255,255,1.0);
+}
+.title {
+	border-bottom:1px solid rgba(97, 97, 97, 1.0);
+	margin-bottom:.35em;
+	padding:0em .4em .25em .4em;
+	width: 100%;	
+	@media screen and (min-width: $width-medium) { 
+			max-width:20em;	
+	}	
+}
+.column_content {
+	width:100%;
+	overflow:hidden;
+	display:table;	
+	height:100%;
+}
+.column_content + .bottom-nav { margin-top:2.5em; }
+.last-project-column + .bottom-nav { margin-top:0em; }
+.thumb-text-wrap {
+	padding:1.4em;	
+	h3 {
+		color:rgba(33,33,33,1.0);	
+	}
+	@media screen and (min-width: $width-medium) { 
+		padding:.75em 0 0 0;
+	}
+}
+.left_container, .right_container {
+	width:100%;
+	display:table-cell;
+	float:left;
+	vertical-align:middle;
+	img {
+		width:100%;
+	}
+	@media screen and (min-width: $width-medium) { 
+		width:40%;
+		height:100%;
+		float:none;
+	}
+}
+.thumb-image {
+	img {
+		opacity:1.0;
+	}
+	@media screen and (min-width: $width-medium) {
+		padding: 2.5em 1.25em 0em 2.5em;
+	}
+}
+html.no-touch .thumb-image img {
+	opacity:.9;
+	-webkit-transition: all .2s ease-in-out;
+  	-moz-transition: all .2s ease-in-out;
+  	-o-transition: all .2s ease-in-out;
+  	transition: all .2s ease-in-out; 
+	&:hover {
+		opacity:1.0;	
+	}	
+}
+.project-callout-shell  {
+		padding: $section-spacing-wide;
+		line-height:1.45;
+		background-color:rgba(0,0,0,.15);
+		& .project-callout {
+			font-size:140%;
+			color:rgba(66,66,66,1.0);
+			padding-bottom:0;
+			@media screen and (min-width: $width-medium) {
+				font-size:200%;
+			}
+		}
+		@media screen and (min-width: $width-medium) {
+			padding:7%;
+		}
+}
+.column-1-of-3 {
+	display:table-cell;
+	width:100%;
+	float:left;
+	@media screen and (min-width: $width-medium) {
+		width:33.33%;
+		padding-right: .15em;
+	}
+}
+.column-2-of-3 {
+	display:table-cell;
+	width:100%;
+	float:left;
+	margin:.15em 0em;
+	@media screen and (min-width: $width-medium) {
+		width:33.33%;
+		padding:0 .075em;
+		margin:0;
+	}
+}
+.column-3-of-3 {
+	display:table-cell;
+	width:100%;
+	float:left;
+	@media screen and (min-width: $width-medium) {
+		width:33.33%;
+		padding-left:.15em;
+	}
+}
+.running {
+	background-color:rgba(204,195,100,1.0);	
+}
+.dark {
+	background-color:rgba(66,66,66,1.0);	
+	color:rgba(255,255,255,1.0);
+	& .project-callout {
+		color:rgba(255,255,255,1.0);	
+	}
+}
+.holidaycardtwelve {
+	background-color:rgba(175,218,139,1.0);	
+}
+.luxuryfashion {
+	background-color:rgba(194, 170, 83, 1);
+}
+.project-types {
+	@include small-sub-text;
+	margin-bottom:2em;
+	padding-bottom:0;		
+}
+.read-more {
+	display:none;	
+	@media screen and (min-width: $width-medium) {
+		display:block;	
+	}
+}
+button {
+	color: rgba(255,255,255,1.0); 
+	background-color:rgba(117,117,117,1.0); 
+	@include rounded(.625em);
+	font-family:$font-sans;
+	font-size:90%;
+	padding:1em 2em;
+	cursor:pointer;
+	border:1px solid rgba(255,255,255,1.0);
+	-webkit-transition: all .2s ease-in-out;
+  	-moz-transition: all .2s ease-in-out;
+  	-o-transition: all .2s ease-in-out;
+  	transition: all .2s ease-in-out;
+	display:block;
+	margin:0 auto;
+	&.show-me-more {
+		color: rgba(117,117,117,1.0);
+		border:1px solid rgba(117,117,117,1.0);
+		background-color:rgba(255,255,255,1.0);
+		margin-bottom:1em;
+		@media screen and (min-width: $width-medium) { 
+			display:none;
+		}
+		html.no-touch &:hover {
+		background-color: rgba(117,117,117,1.0);
+		color:rgba(255,255,255,1.0);
+		border:1px solid rgba(117,117,117,1.0);		
+		}	
+	}
+	html.no-touch &:hover {
+		background-color: rgba(255,255,255,1.0);
+		color:rgba(117,117,117,1.0);
+		border:1px solid rgba(255,255,255,1.0);		
+	}
+	&:focus {
+		outline:none;	
+	}
+}
+
+.documentation ul {
+	li {
+		padding-bottom:.5em;	
+		@media screen and (min-width: $width-medium) { 
+			padding-bottom:0;
+		}
+		&.single-line-li {
+			padding-bottom:0;	
+		}
+	}
+}
+
+ul li a {
+	color:rgba(61,61,61,0.60);
+	-webkit-transition: all .2s ease-in-out;
+  	-moz-transition: all .2s ease-in-out;
+  	-o-transition: all .2s ease-in-out;
+  	transition: all .2s ease-in-out;
+	font-size:105%;
+	&.current {
+		color:rgba(0,0,0,1.0);	
+	}
+	html.no-touch &:hover {
+		color:rgba(61,61,61,$hover);	
+	}
+}
+
+.bottom-nav {
+	background-color: rgba(117,117,117,1.0);
+	margin-top:0;
+	text-align:center;
+	padding:2.5em 0;
+	@media screen and (min-width: $width-medium) { 
+			padding: $section-spacing-wide;
+	}
+	button {
+		display:inline;	
+		&.previous {
+			margin-right:.5em;	
+		}
+		&.next {
+			margin-left:.5em;	
+		}
+	}
+	.bottom-nav-text {
+		display:none;
+		@media screen and (min-width: $width-medium) { 
+			display:inline;
+	}
+	}
+}
+
+footer {
+	background-color: rgba(66,66,66,1.0);
+	color:rgba(255,255,255,1.0);
+	ul {
+		margin-bottom: 1.25em;	
+	}
+	ul li {
+		& a {
+			color:rgba(255,255,255,0.7);
+			html.no-touch &:hover {
+				color:rgba(255,255,255,1.0);	
+			}
+		}
+		@media screen and (min-width: $width-medium) {
+		display:inline-block;
+	}
+	}
+	@media screen and (min-width: $width-medium) {
+		ul li {
+			margin-right:1.25em;	
+			&:last-child { margin-right:0; }
+		}
+		
+	}	
+}
+
+.copyright {
+	font: 400 100%/1.65 $font-sans;
+	text-transform:uppercase;
+	letter-spacing:.05em;
+	color:rgba(255,255,255,1.0);
+	padding:0 .6em;	
+	@media screen and (min-width: $width-medium) { 
+		padding:0 .9em;	
+	}
+}
+
+// =========================
+//	06 Header / Nav
+// =========================
+
+nav { 
+	overflow:hidden;
+	position:relative;
+	width:100%;
+	z-index:100;
+	max-width:90em; /* 1440px / 16 = 90em */
+	margin:0 auto;
+	padding:2em 1.75em;
+	background-color:rgba(255,255,255,1.0);
+	h1 {
+		line-height:2.25;
+	}
+	ul { font-size: 110%; } 
+	@media screen and (min-width: $width-medium) { 
+		display:block;
+		padding:3em;
+		height:9.688em;
+		h1 {
+			line-height:inherit;	
+		}
+	}
+}
+.header-logo {
+	float:left;
+	display:block;
+	z-index:100;
+	position:relative;
+	a {
+		color:inherit;
+	}
+}
+.site-nav-wrapper {
+	display:table;
+	float:right;	
+	width:100%;
+	margin:0 auto;
+	padding:0;
+	height:100%;
+	top:-4.313em;
+	ul {
+		@media screen and (min-width: $width-medium) { 
+		float:right;
+		}
+	}
+	li {
+		@media screen and (min-width: $width-medium) { 
+			float:left;
+			padding-right:1.250em;
+			&:last-child {
+				padding-right:0;		
+			}
+		}
+	}
+	@media screen and (max-width: $width-tiny) {
+		top:-1em;	
+	}
+	@media screen and (min-width: $width-medium) {
+		display:block;
+		width:auto;
+		height:100%;
+		padding-top:.95em;
+		top:0;
+	}
+}
+
+.nav-full-screen {
+	height:100%;
+	width:100%;
+	position:fixed;
+	overflow:hidden;	
+	color:rgba(0,0,0,1.0);
+	background-color: rgba(255,255,255,.85);
+}
+.site-nav {
+	display:none; 
+	background:none;
+	@media screen and (min-width: $width-medium) { 
+		display:block;
+	}
+}
+.site-nav-vertical {
+	display:table-cell;
+	vertical-align:middle;
+	top:0;	
+	text-align:center;
+	font-size:150%;
+}
+.site-nav-main {
+	position: absolute;
+	top:9.688em;	
+}
+
+// Begin Navicon hamburger/x 
+
+.naviconwrap {
+	opacity:1.0;
+	visibility:visible;
+	@media screen and (min-width: $width-medium) { 
+		opacity:0;
+		visibility:hidden;
+	}
+}
+
+.navicon-button { 
+	display:inline-block;
+	position:absolute;
+	right:0;
+	top:0;
+	padding:1.65em 0;
+	transition:0.25s;
+	cursor:pointer;
+	user-select:none;
+	opacity:.5;
+	border:none;
+	z-index:100;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+
+.navicon-button .navicon:before, .navicon-button .navicon:after { transition: 0.25s; }
+
+/*The following items with html.no-touch are related to the custom modernizr build I implemented so that the hover items only work on non-touch devices.*/
+html.no-touch .navicon-button:hover { transition: 0.5s; opacity: 1; }
+html.no-touch .navicon-button:hover .navicon:before, html.no-touch .navicon-button:hover .navicon:after { transition: 0.25s; }
+
+.navicon { 
+	position: relative;
+	width: 2.25em;
+	height: .3em;
+	background: rgba(0,0,0,1.0);
+	transition: 0.5s;
+	border-radius: 2.5em; 
+}
+
+.navicon:before, .navicon:after {
+  display: block;
+  content: "";
+  height: .3em;
+  width: 2.25em;
+  background: rgba(0,0,0,1.0);
+  position: absolute;
+  z-index: -1;
+  transition: 0.5s 0.25s;
+  border-radius: 1em;
+}
+
+/*The following transforms have to be 3d so that they work on ios devices*/
+.navicon:before {
+	-webkit-transform: translate3d(0,.625em,0);
+	-moz-transform: translate3d(0,.625em,0);
+	transform: translate3d(0,.625em,0);
+}
+/*The following transforms have to be 3d so that they work on ios devices*/
+.navicon:after {
+	-webkit-transform: translate3d(0,-.625em,0);
+  	-moz-transform: translate3d(0,-.625em,0);
+  	transform: translate3d(0,-.625em,0);
+}
+
+.open:not(.steps) .navicon:before,
+.open:not(.steps) .navicon:after {
+  top: 0 !important;
+}
+
+.open .navicon:before,
+.open .navicon:after {
+  transition: 0.5s;
+}
+
+.open.x .navicon {
+  background: transparent;
+}
+
+/*The following transforms have to be 3d so that they work on ios devices*/
+.open.x .navicon:before {
+	-webkit-transform: rotate3d(0,0,1,-45deg);
+  	-moz-transform: rotate3d(0,0,1,-45deg);
+  	transform: rotate3d(0,0,1,-45deg);
+}
+
+/*The following transforms have to be 3d so that they work on ios devices*/
+.open.x .navicon:after {
+	-webkit-transform: rotate3d(0,0,1,45deg);
+  	-moz-transform: rotate3d(0,0,1,45deg);
+  	transform: rotate3d(0,0,1,45deg);
+}
+
+// End Navicon hamburger/x
+
+// ======================================
+//	07 Poster Image Centering / Cropping
+// ======================================
+
+.poster {
+	-webkit-transition:opacity 0.35s ease;
+	-moz-transition:opacity 0.35s ease;
+	transition:opacity 0.35s ease;
+	position:relative;
+	background-color:rgba(255,255,255,1.0);
+	height:100%;
+	overflow:hidden;
+}
+.poster-image {
+	overflow:hidden;
+	height:75%;
+	img {
+		display:block;
+		width:100%;
+		max-width:100%;
+		height:auto;
+		border:0;
+	}
+}
+
+// ======================================
+//	08 Mike Doughty Owl Interaction
+// ======================================
+
+.mousetest {
+	width:100%;
+	max-width:800px;
+	margin:0 auto;
+}
+.mousetest_image_list {
+	width:100%;
+	cursor:pointer;
+}
+
+.mousetest_image li {
+	display:none;
+	width:100%;	
+}
+
+.mousetest_image li:last-child {
+	display:inline;	
+}
+
+.owl_colors {
+	color:#333333;	
+}
+
+// ======================================
+//	09 Flexslider
+// ======================================
+
+/*
+ * jQuery FlexSlider v2.0
+ * http://www.woothemes.com/flexslider/
+ *
+ * Copyright 2012 WooThemes
+ * Free to use under the GPLv2 license.
+ * http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Contributing author: Tyler Smith (@mbmufffin)
+ */
+
+/* Browser Resets */
+.flex-container a:active,
+.flexslider a:active,
+.flex-container a:focus,
+.flexslider a:focus  {outline: none;}
+.slides,
+.flex-control-nav,
+.flex-direction-nav {margin: 0; padding: 0; list-style: none; max-width:100%;} 
+
+/* FlexSlider Necessary Styles
+*********************************/ 
+.flexslider {margin: 0; padding: 0;}
+.flexslider .slides > li {display: none; -webkit-backface-visibility: hidden;} /* Hide the slides before the JS is loaded. Avoids image jumping */
+.flexslider .slides img {width: 100%; display: block;}
+.flexslider .slides video {width: 100%;height:auto;display:inline-block;}
+.flex-pauseplay span {text-transform: capitalize;}
+
+/* Clearfix for the .slides element */
+.slides:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;} 
+html[xmlns] .slides {display: block;} 
+* html .slides {height: 1%;}
+
+/* No JavaScript Fallback */
+/* If you are not using another script, such as Modernizr, make sure you
+ * include js that eliminates this class on page load */
+.no-js .slides > li:first-child {display: block;}
+
+
+/* FlexSlider Default Theme
+*********************************/
+.flexslider {margin:0; background: #fff; position: relative; zoom: 1;}
+.flex-viewport {max-height: 2000px; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; transition: all 1s ease;}
+.loading .flex-viewport {max-height: 300px;}
+.flexslider .slides {zoom: 1;}
+
+.carousel li {margin-right: 5px}
+
+/* Control Nav */
+.flex-control-nav {width: 100%; position: relative; padding-top:1.25em; text-align: center; display:inline-block;}
+.flex-control-nav li {margin: 0 5.5px; display: inline-block; zoom: 1;}
+.flex-control-paging li a {width: 10px; height:10px; display: block; background: #666; background: rgba(0,0,0,.25); cursor: pointer; text-indent: -9999px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -o-border-radius: 10px; border-radius: 10px;}
+.flex-control-paging li a:hover { background: #333; background: rgba(0,0,0,0.7); }
+.flex-control-paging li a.flex-active { background: #000; background: rgba(0,0,0,0.9); cursor: default; }
+
+.flex-control-thumbs {margin: 5px 0 0; position: static; overflow: hidden;}
+.flex-control-thumbs li {width: 25%; float: left; margin: 0;}
+.flex-control-thumbs img {width: 100%; display: block; opacity: .7; cursor: pointer;}
+.flex-control-thumbs img:hover {opacity: 1;}
+.flex-control-thumbs .flex-active {opacity: 1; cursor: default;}
+
+@media screen and (max-width: 860px) {
+  .flex-direction-nav .flex-prev {opacity: 1; left: 0;}
+  .flex-direction-nav .flex-next {opacity: 1; right: 0;}
+}
+
+/*//////////////Seth Custom Added ////////////////*/
+
+.flexslider {
+	padding: 1.25em 1.25em .5em 1.25em;
+	background-color:rgba(238,238,238,1.0);
+	@media screen and (min-width: $width-medium) { 
+		padding: 5em 5em 2em 5em;
+	}	
+}
+
+.flexslider_navigation_icon {
+	height: 19px;
+	width: 29px;
+	float: right;
+	margin: 9px 18px 0 0;
+	background: url('../icons/arrow-navigation.png') no-repeat left center;
+	/*When I am in SASS swap out the icon for touch when I have the smaller width.*/
+}
+
+// ======================================
+//	10 MailChimp Form Styles
+// ======================================
+
+#mc_embed_signup input {
+	border:1px solid rgba(117,117,117,1.0);
+	-webkit-appearance:none;
+}
+#mc_embed_signup input[type=checkbox] { -webkit-appearance:checkbox; }
+#mc_embed_signup input[type=radio] { -webkit-appearance:radio; }
+#mc_embed_signup input:focus { outline:none; }
+#mc_embed_signup .button {
+	color: rgba(255,255,255,1.0); 
+	background-color:rgba(117,117,117,1.0); 
+	@include rounded(.625em);
+	font-family:$font-sans;
+	font-size:100%;
+	padding:1em 2em;
+	cursor:pointer;
+	border:1px solid rgba(117,117,117,1.0);
+	-webkit-transition: all .2s ease-in-out;
+  	-moz-transition: all .2s ease-in-out;
+  	-o-transition: all .2s ease-in-out;
+  	transition: all .2s ease-in-out;
+	display:block;
+	margin:0 .6em;
+	&:hover {
+		background-color: rgba(66,66,66,1.0);
+		border:1px solid rgba(66,66,66,1.0);	
+	}
+	@media screen and (min-width: $width-medium) { 
+		margin:0em .9em;
+	}
+}
+#mc_embed_signup label {
+	font-size: 150%;	
+	font-weight:700;
+	-webkit-transition: all .2s ease-in-out;
+  	-moz-transition: all .2s ease-in-out;
+  	-o-transition: all .2s ease-in-out;
+  	transition: all .2s ease-in-out;
+	@media screen and (min-width: $width-medium) { 
+		font-size: 200%;
+	}
+}
+#mc_embed_signup input.email, #mc_embed_signup input.name{
+	@include rounded(.625em);
+	font-family:$font-sans;
+	font-size:100%;
+	color:rgba(97,97,97,1.0);
+	padding:.75em 1.5em;
+	cursor:text;
+	margin:.5em 0;
+	width:100%;
+}
+#mc_embed_signup div#mce-responses{float:left;top:-1.4em;padding:0em .5em 0em .5em;overflow:hidden;width:90%;margin:0 5%;clear:both;}
+#mc_embed_signup div.response{margin:1em 0;padding:1em .5em .5em 0;font-weight:bold;float:left;top:-1.5em;z-index:1;width:80%;}
+#mc_embed_signup #mce-error-response{display:none;}
+#mc_embed_signup #mce-success-response{color:#529214;display:none;}
+#mc_embed_signup label.error{display:block;float:none;width:auto;margin-left:1.05em;text-align:left;padding:.5em 0;}
+#mc_embed_signup .indicates-required{
+	color:rgba(33,33,33,1.0);
+	padding-left:.6em;
+	padding-right:.6em;	
+	@media screen and (min-width: $width-medium) { 
+		padding-left:.9em;
+		padding-right:.9em;
+	}
+}
+#mc_embed_signup .mc-field-group{
+	width:100%;
+	max-width:27em;
+	padding:0em .6em;
+	@media screen and (min-width: $width-medium) { 
+		padding:0em .9em;
+	}
+}
+#mc_embed_signup .mc-field-group .asterisk{position:absolute;right:1.25em;top:.4em;font-size:150%}
