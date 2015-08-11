@@ -514,7 +514,7 @@ nav {
 
 .site-nav-main {
   position: absolute;
-  top: 9.688em; }
+  top: 7.375em; }
 
 .naviconwrap {
   opacity: 1.0;
@@ -801,7 +801,7 @@ html[xmlns] .slides {
     right: 0; } }
 /*//////////////Seth Custom Added ////////////////*/
 .flexslider {
-  padding: 1.25em 1.25em .5em 1.25em;
+  padding: 1.25em 1.25em 1.3em 1.25em;
   background-color: #eeeeee; }
   @media screen and (min-width: 56.25em) {
     .flexslider {
