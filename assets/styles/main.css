@@ -138,10 +138,16 @@ body {
   margin: 0;
   background-color: #dddddd; }
 
-header, footer, .documentation {
+header, footer {
   padding: 1.4em; }
   @media screen and (min-width: 56.25em) {
-    header, footer, .documentation {
+    header, footer {
+      padding: 2.5em; } }
+
+.documentation {
+  padding: 1.4em; }
+  @media screen and (min-width: 22.5em) {
+    .documentation {
       padding: 2.5em; } }
 
 header {

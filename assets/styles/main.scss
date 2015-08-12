@@ -66,6 +66,7 @@ $font-serif: "ff-tisa-web-pro",Georgia,serif;
 $section-spacing-wide: 2.5em; /*This number should be reflected in .left_container, .right_container, and .bottom-nav as well.*/
 $section-spacing-narrow: 1.4em; /**This number should be reflected in button.show-me-more as well.*/	
 $hover: 0.85;
+$seth-brand-color: rgba(60,184,120,1.0);
 
 // =========================
 //	04 Typography
@@ -169,9 +170,15 @@ li { position:relative; } /* For absolutely positioning elements within containe
 
 body { padding:0; margin:0;	background-color: rgba(221,221,221,1.0); }
 
-header, footer, .documentation {
+header, footer {
 	padding: $section-spacing-narrow;
 	@media screen and (min-width: $width-medium) { 
+		padding: $section-spacing-wide;
+	}
+}
+.documentation {
+	padding: $section-spacing-narrow;
+	@media screen and (min-width: $width-tiny) { 
 		padding: $section-spacing-wide;
 	}
 }

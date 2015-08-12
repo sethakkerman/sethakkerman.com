@@ -6,3 +6,5 @@ gdla/
 instrument/
 2014archive/
 assets/styles/.sass-cache/
+working_files/
+*.scssc
