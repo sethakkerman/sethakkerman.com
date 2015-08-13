@@ -134,8 +134,8 @@ p, ul {
 		padding-right: 1.2em;
 		padding-bottom: 0;	
 		@media screen and (min-width: $width-medium) { 
-			padding-left:1.8em;
-			padding-right: 1.8em;
+			padding-left:1.5em;
+			padding-right: 1.5em;
 			max-width:87.667em;		
 		}
 	}
@@ -201,6 +201,16 @@ img + img {
 		width:65%;
 	}
 }
+.small-illustrations {
+	width:65%;
+	margin:0 auto;
+	@media screen and (max-width: $width-tiny) { 
+		width:100%;
+	}
+	@media screen and (min-width: $width-medium) { 
+		width:100%;
+	}	
+}
 .embedded_video {
 	& figure {
 		max-width:62.5em;
@@ -218,8 +228,8 @@ h2 + p, h3 + p, h2 + ul, h3 + ul {
 	padding-left:.6em;
 	padding-right: .6em;	
 		@media screen and (min-width: $width-medium) { 
-			padding-left:.7em;
-			padding-right: .7em;		
+			padding-left: .8em;
+			padding-right: .8em;		
 		}		
 }
 
@@ -351,6 +361,9 @@ html.no-touch .thumb-image img {
 }
 .luxuryfashion {
 	background-color:rgba(194, 170, 83, 1);
+}
+.scadux, .logo-color {
+	background-color:rgba(230,230,230,1.0);	
 }
 .project-types {
 	@include small-sub-text;
@@ -813,6 +826,10 @@ html[xmlns] .slides {display: block;}
 	@media screen and (min-width: $width-medium) { 
 		padding: 5em 5em 2em 5em;
 	}	
+}
+
+.white-bg {
+	background-color:rgba(255,255,255,1.0);	
 }
 
 .flexslider_navigation_icon {

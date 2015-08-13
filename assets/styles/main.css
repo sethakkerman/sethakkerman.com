@@ -106,8 +106,8 @@ p, ul {
     padding-bottom: 0; }
     @media screen and (min-width: 56.25em) {
       p.photo-credit, ul.photo-credit {
-        padding-left: 1.8em;
-        padding-right: 1.8em;
+        padding-left: 1.5em;
+        padding-right: 1.5em;
         max-width: 87.667em; } }
 
 em {
@@ -177,6 +177,16 @@ img + img {
     .logo-presentation {
       width: 65%; } }
 
+.small-illustrations {
+  width: 65%;
+  margin: 0 auto; }
+  @media screen and (max-width: 22.5em) {
+    .small-illustrations {
+      width: 100%; } }
+  @media screen and (min-width: 56.25em) {
+    .small-illustrations {
+      width: 100%; } }
+
 .embedded_video figure {
   max-width: 62.5em;
   margin: 0 auto; }
@@ -193,8 +203,8 @@ h2 + p, h3 + p, h2 + ul, h3 + ul {
   padding-right: .6em; }
   @media screen and (min-width: 56.25em) {
     h2 + p, h3 + p, h2 + ul, h3 + ul {
-      padding-left: .7em;
-      padding-right: .7em; } }
+      padding-left: .8em;
+      padding-right: .8em; } }
 
 .main-wrapper {
   position: relative;
@@ -319,6 +329,9 @@ html.no-touch .thumb-image img {
 
 .luxuryfashion {
   background-color: #c2aa53; }
+
+.scadux, .logo-color {
+  background-color: #e6e6e6; }
 
 .project-types {
   font: 400 100%/1.65 "ff-tisa-sans-web-pro", "Helvetica Neue", Helvetica, sans-serif;
@@ -812,6 +825,9 @@ html[xmlns] .slides {
   @media screen and (min-width: 56.25em) {
     .flexslider {
       padding: 5em 5em 2em 5em; } }
+
+.white-bg {
+  background-color: white; }
 
 .flexslider_navigation_icon {
   height: 19px;
