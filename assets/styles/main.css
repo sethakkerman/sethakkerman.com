@@ -34,7 +34,7 @@ table {
   border-spacing: 0; }
 
 /*These values aside from color should be reflected in the .copyright*/
-/* 360px / 16 = 22.500em */
+/* 480px / 16 = 30em */
 /* 900px / 16 = 56.250em */
 /*This number should be reflected in .left_container, .right_container, and .bottom-nav as well.*/
 /**This number should be reflected in button.show-me-more as well.*/
@@ -140,13 +140,13 @@ body {
 
 header, footer {
   padding: 1.4em; }
-  @media screen and (min-width: 56.25em) {
+  @media screen and (min-width: 30em) {
     header, footer {
       padding: 2.5em; } }
 
 .documentation {
   padding: 1.4em; }
-  @media screen and (min-width: 22.5em) {
+  @media screen and (min-width: 30em) {
     .documentation {
       padding: 2.5em; } }
 
@@ -180,7 +180,7 @@ img + img {
 .small-illustrations {
   width: 65%;
   margin: 0 auto; }
-  @media screen and (max-width: 22.5em) {
+  @media screen and (max-width: 30em) {
     .small-illustrations {
       width: 100%; } }
   @media screen and (min-width: 56.25em) {
@@ -474,6 +474,9 @@ nav {
     line-height: 2.25; }
   nav ul {
     font-size: 110%; }
+  @media screen and (min-width: 30em) {
+    nav {
+      padding: 2em 2.75em; } }
   @media screen and (min-width: 56.25em) {
     nav {
       display: block;
@@ -507,7 +510,7 @@ nav {
       padding-right: 1.250em; }
       .site-nav-wrapper li:last-child {
         padding-right: 0; } }
-  @media screen and (max-width: 22.5em) {
+  @media screen and (max-width: 30em) {
     .site-nav-wrapper {
       top: -1em; } }
   @media screen and (min-width: 56.25em) {

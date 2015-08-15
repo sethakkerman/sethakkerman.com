@@ -59,7 +59,7 @@ Well hello there! Thanks for taking a look around. If you are curious about the 
 //	03 SASS Variables
 // =========================
 
-$width-tiny: 22.500em; /* 360px / 16 = 22.500em */
+$width-tiny: 30em; /* 480px / 16 = 30em */
 $width-medium: 56.250em; /* 900px / 16 = 56.250em */
 $font-sans: "ff-tisa-sans-web-pro","Helvetica Neue",Helvetica,sans-serif;
 $font-serif: "ff-tisa-web-pro",Georgia,serif;
@@ -172,7 +172,7 @@ body { padding:0; margin:0;	background-color: rgba(221,221,221,1.0); }
 
 header, footer {
 	padding: $section-spacing-narrow;
-	@media screen and (min-width: $width-medium) { 
+	@media screen and (min-width: $width-tiny) { 
 		padding: $section-spacing-wide;
 	}
 }
@@ -531,6 +531,9 @@ nav {
 		line-height:2.25;
 	}
 	ul { font-size: 110%; } 
+	@media screen and (min-width: $width-tiny) {
+		padding:2em 2.75em;	
+	}
 	@media screen and (min-width: $width-medium) { 
 		display:block;
 		padding:3em;
