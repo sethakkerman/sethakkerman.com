@@ -267,9 +267,14 @@ h3 + p, h3 + ul {
 
 .thumb-image img {
   opacity: 1.0; }
+
 @media screen and (min-width: 56.25em) {
-  .thumb-image {
+  .thumb-image-left {
     padding: 2.5em 1.25em 0em 2.5em; } }
+
+@media screen and (min-width: 56.25em) {
+  .thumb-image-right {
+    padding: 2.5em 2.5em 0em 1.25em; } }
 
 html.no-touch .thumb-image img {
   opacity: .9;
