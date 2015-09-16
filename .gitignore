@@ -1,10 +1,25 @@
+# Other Folders #
 is_portland_bound/
 Tests as Screen Captures/
-config.codekit
-_notes/
+working_files/
 gdla/
 instrument/
 2014archive/
-assets/styles/.sass-cache/
-working_files/
+
+# SCSSC #
 *.scssc
+assets/styles/.sass-cache/
+assets/styles/.sass-cache/*
+
+# Packages #
+.dmg
+.zip
+.tar
+.rar
+
+# OS Generated Files #
+config.codekit
+_notes/
+.DS_Store*
+Thumbs.db
+.DS_Store
