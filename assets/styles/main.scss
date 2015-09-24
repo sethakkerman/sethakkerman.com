@@ -40,12 +40,13 @@ Well hello there! Thanks for taking a look around. If you are curious about the 
 	-moz-border-radius: $radius;
 	border-radius: $radius;
 }
+// These values aside from color should be reflected in the .copyright
 @mixin small-sub-text {
 	font: 400 100%/1.65 $font-sans;
 	color:rgba(97,97,97,1.0);
 	text-transform:uppercase;
 	letter-spacing:.05em;
-} /*These values aside from color should be reflected in the .copyright*/
+}
 @mixin general-header-qualities {
 	font-weight:700;
 	font-style:normal;
@@ -59,12 +60,16 @@ Well hello there! Thanks for taking a look around. If you are curious about the 
 //	03 SASS Variables
 // =========================
 
-$width-tiny: 30em; /* 480px / 16 = 30em */
-$width-medium: 56.250em; /* 900px / 16 = 56.250em */
+// 480px / 16 = 30em
+$width-tiny: 30em; 
+// 900px / 16 = 56.250em
+$width-medium: 56.250em; 
 $font-sans: "ff-tisa-sans-web-pro","Helvetica Neue",Helvetica,sans-serif;
 $font-serif: "ff-tisa-web-pro",Georgia,serif;
-$section-spacing-wide: 2.5em; /*This number should be reflected in .left_container, .right_container, and .bottom-nav as well.*/
-$section-spacing-narrow: 1.4em; /**This number should be reflected in button.show-me-more as well.*/	
+// This number should be reflected in .left_container, .right_container, and .bottom-nav as well.
+$section-spacing-wide: 2.5em; 
+//This number should be reflected in button.show-me-more as well.
+$section-spacing-narrow: 1.4em; 
 $hover: 0.85;
 $seth-brand-color: rgba(60,184,120,1.0);
 
@@ -72,7 +77,9 @@ $seth-brand-color: rgba(60,184,120,1.0);
 //	04 Typography
 // =========================
 
-/* There seems to be a bug rendering fonts in mozilla on macs. The moz-osx css line fixed the visual issue. This may only be necessary when there is only one font served from typekit and the weights are specified by numerical values. */
+//There seems to be a bug rendering fonts in mozilla on macs.
+//The moz-osx css line fixed the visual issue.
+//This may only be necessary when there is only one font served from typekit and the weights are specified by numerical values.
 html { 
 	-webkit-font-smoothing:antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -153,12 +160,14 @@ em {
 //	05 Basic Layout
 // =========================
 
+// Apply a natural box layout model to all elements see http://paulirish.com/2012/box-sizing-border-box-ftw
 * { 
 	-moz-box-sizing:border-box;
 	-webkit-box-sizing:border-box;
 	box-sizing:border-box;
-} /* Apply a natural box layout model to all elements see http://paulirish.com/2012/box-sizing-border-box-ftw */
+} 
 
+// For absolutely positioning elements within containers
 div,
 article,
 section,
@@ -166,7 +175,7 @@ header,
 footer,
 nav,
 figure,
-li { position:relative; } /* For absolutely positioning elements within containers  */
+li { position:relative; }
 
 body { padding:0; margin:0;	background-color: rgba(221,221,221,1.0); }
 
@@ -187,7 +196,8 @@ header {
 }
 ul { list-style:none; }
 li { list-style-type:none; }
-img { width:100%; display:block; } /* img { display:block; } This is to get rid of the weird, tiny 4px white space between the images horizontally */
+// Setting the img to display block is to get rid of the weird, tiny 4px white space between the images horizontally.
+img { width:100%; display:block; } 
 img + img {
 	margin-top:.15em;	
 }
@@ -242,10 +252,11 @@ h3 + p, h3 + ul {
 		}		
 }
 
+// 1440px / 16 = 90em
 .main-wrapper {
 	position:relative;
 	margin: 0 auto;
-	max-width:90em; /* 1440px / 16 = 90em */
+	max-width:90em;
 	width:100%;
 	background-color:rgba(255,255,255,1.0);
 }
@@ -525,12 +536,13 @@ footer {
 //	06 Header / Nav
 // =========================
 
+// 1440px / 16 = 90em
 nav { 
 	overflow:hidden;
 	position:relative;
 	width:100%;
 	z-index:100;
-	max-width:90em; /* 1440px / 16 = 90em */
+	max-width:90em;
 	margin:0 auto;
 	padding:2em 1.75em;
 	background-color:rgba(255,255,255,1.0);
@@ -648,7 +660,8 @@ nav {
 
 .navicon-button .navicon:before, .navicon-button .navicon:after { transition: 0.25s; }
 
-/*The following items with html.no-touch are related to the custom modernizr build I implemented so that the hover items only work on non-touch devices.*/
+// The following items with html.no-touch are related to the custom modernizr build
+// I implemented so that the hover items only work on non-touch devices.
 html.no-touch .navicon-button:hover { transition: 0.5s; opacity: 1; }
 html.no-touch .navicon-button:hover .navicon:before, html.no-touch .navicon-button:hover .navicon:after { transition: 0.25s; }
 
@@ -673,13 +686,13 @@ html.no-touch .navicon-button:hover .navicon:before, html.no-touch .navicon-butt
   border-radius: 1em;
 }
 
-/*The following transforms have to be 3d so that they work on ios devices*/
+// The following transforms have to be 3d so that they work on ios devices
 .navicon:before {
 	-webkit-transform: translate3d(0,.625em,0);
 	-moz-transform: translate3d(0,.625em,0);
 	transform: translate3d(0,.625em,0);
 }
-/*The following transforms have to be 3d so that they work on ios devices*/
+// The following transforms have to be 3d so that they work on ios devices
 .navicon:after {
 	-webkit-transform: translate3d(0,-.625em,0);
   	-moz-transform: translate3d(0,-.625em,0);
@@ -700,14 +713,14 @@ html.no-touch .navicon-button:hover .navicon:before, html.no-touch .navicon-butt
   background: transparent;
 }
 
-/*The following transforms have to be 3d so that they work on ios devices*/
+// The following transforms have to be 3d so that they work on ios devices
 .open.x .navicon:before {
 	-webkit-transform: rotate3d(0,0,1,-45deg);
   	-moz-transform: rotate3d(0,0,1,-45deg);
   	transform: rotate3d(0,0,1,-45deg);
 }
 
-/*The following transforms have to be 3d so that they work on ios devices*/
+// The following transforms have to be 3d so that they work on ios devices
 .open.x .navicon:after {
 	-webkit-transform: rotate3d(0,0,1,45deg);
   	-moz-transform: rotate3d(0,0,1,45deg);
@@ -772,18 +785,16 @@ html.no-touch .navicon-button:hover .navicon:before, html.no-touch .navicon-butt
 //	09 Flexslider
 // ======================================
 
-/*
- * jQuery FlexSlider v2.0
- * http://www.woothemes.com/flexslider/
- *
- * Copyright 2012 WooThemes
- * Free to use under the GPLv2 license.
- * http://www.gnu.org/licenses/gpl-2.0.html
- *
- * Contributing author: Tyler Smith (@mbmufffin)
- */
+// jQuery FlexSlider v2.0
+// http://www.woothemes.com/flexslider/
+//
+// Copyright 2012 WooThemes
+// Free to use under the GPLv2 license.
+// http://www.gnu.org/licenses/gpl-2.0.html
+//
+// Contributing author: Tyler Smith (@mbmufffin)
 
-/* Browser Resets */
+// Browser Resets
 .flex-container a:active,
 .flexslider a:active,
 .flex-container a:focus,
@@ -792,27 +803,27 @@ html.no-touch .navicon-button:hover .navicon:before, html.no-touch .navicon-butt
 .flex-control-nav,
 .flex-direction-nav {margin: 0; padding: 0; list-style: none; max-width:100%;} 
 
-/* FlexSlider Necessary Styles
-*********************************/ 
+// FlexSlider Necessary Styles
+//
 .flexslider {margin: 0; padding: 0;}
-.flexslider .slides > li {display: none; -webkit-backface-visibility: hidden;} /* Hide the slides before the JS is loaded. Avoids image jumping */
+// Hide the slides before the JS is loaded. Avoids image jumping
+.flexslider .slides > li {display: none; -webkit-backface-visibility: hidden;}
 .flexslider .slides img {width: 100%; display: block;}
 .flexslider .slides video {width: 100%;height:auto;display:inline-block;}
 .flex-pauseplay span {text-transform: capitalize;}
 
-/* Clearfix for the .slides element */
+// Clearfix for the .slides element
 .slides:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;} 
 html[xmlns] .slides {display: block;} 
 * html .slides {height: 1%;}
 
-/* No JavaScript Fallback */
-/* If you are not using another script, such as Modernizr, make sure you
- * include js that eliminates this class on page load */
+// No JavaScript Fallback
+// If you are not using another script, such as Modernizr, make sure you
+// include js that eliminates this class on page load
 .no-js .slides > li:first-child {display: block;}
 
 
-/* FlexSlider Default Theme
-*********************************/
+// FlexSlider Default Theme
 .flexslider {margin:0; background: #fff; position: relative; zoom: 1;}
 .flex-viewport {max-height: 2000px; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; transition: all 1s ease;}
 .loading .flex-viewport {max-height: 300px;}
@@ -820,7 +831,7 @@ html[xmlns] .slides {display: block;}
 
 .carousel li {margin-right: 5px}
 
-/* Control Nav */
+// Control Nav
 .flex-control-nav {width: 100%; position: relative; padding-top:1.25em; text-align: center; display:inline-block;}
 .flex-control-nav li {margin: 0 5.5px; display: inline-block; zoom: 1;}
 .flex-control-paging li a {width: 10px; height:10px; display: block; background: #666; background: rgba(0,0,0,.25); cursor: pointer; text-indent: -9999px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -o-border-radius: 10px; border-radius: 10px;}
@@ -838,7 +849,7 @@ html[xmlns] .slides {display: block;}
   .flex-direction-nav .flex-next {opacity: 1; right: 0;}
 }
 
-/*//////////////Seth Custom Added ////////////////*/
+// Seth Custom Added
 
 .flexslider {
 	padding: 1.25em 1.25em 1.3em 1.25em;
@@ -852,13 +863,13 @@ html[xmlns] .slides {display: block;}
 	background-color:rgba(255,255,255,1.0);	
 }
 
+//When I am in SASS swap out the icon for touch when I have the smaller width.
 .flexslider_navigation_icon {
 	height: 19px;
 	width: 29px;
 	float: right;
 	margin: 9px 18px 0 0;
 	background: url('../icons/arrow-navigation.png') no-repeat left center;
-	/*When I am in SASS swap out the icon for touch when I have the smaller width.*/
 }
 
 // ======================================
@@ -933,7 +944,7 @@ html[xmlns] .slides {display: block;}
 #mc_embed_signup .mc-field-group{
 	width:100%;
 	max-width:27em;
-	padding:0em .6em;
+	padding:0 .6em;
 	@media screen and (min-width: $width-medium) { 
 		padding:0em .5em;
 	}
