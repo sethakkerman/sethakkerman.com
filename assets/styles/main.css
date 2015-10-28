@@ -128,6 +128,8 @@ html.no-touch .thumb-image img:hover { opacity: 1.0; }
 
 .running { background-color: #ccc364; }
 
+.theakkermans { background-color: #bebebe; }
+
 .dark { background-color: #424242; color: white; }
 .dark .project-callout { color: white; }
 
