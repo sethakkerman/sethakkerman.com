@@ -28,7 +28,7 @@
         $this = $(this);
         $image = $this.find('.poster-image');
         // Set the poster's max-height
-        $this.css({ 'max-height': 525 + 'px' });
+        $this.css({ 'max-height': 400 + 'px' });
         
         self.centerImage($image);
       });
