@@ -71,6 +71,7 @@ $font-serif: "ff-tisa-web-pro",Georgia,serif;
 $section-spacing-wide: 2.5em; 
 //This number should be reflected in button.show-me-more as well.
 $section-spacing-narrow: 1.4em; 
+$wide-padding-topbottom: 9em;
 $hover: 0.85;
 $seth-brand-color: rgba(60,184,120,1.0);
 
@@ -178,12 +179,12 @@ nav,
 figure,
 li { position:relative; }
 
-body { padding:0; margin:0;	background-color: rgba(238,238,238,1.0); }
+body { padding:0; margin:0;	background-color: rgba(234,234,234,1.0); }
 
-header, footer {
+header {
 	padding: $section-spacing-narrow;
 	@media screen and (min-width: $width-tiny) { 
-		padding: $section-spacing-wide;
+		padding: 3.5em 2.5em 3.5em 2.5em;
 	}
 }
 .documentation {
@@ -207,11 +208,7 @@ header, footer {
 	}
 }
 header {
-	background-color:rgba(238,238,238,1.0);
-	@media screen and (min-width: $width-medium) { 
-		border-left:1px solid rgba(221,221,221,1.0);
-		border-right:1px solid rgba(221,221,221,1.0);
-	}
+	background-color:rgba(234,234,234,1.0);
 }
 ul { list-style:none; }
 li { list-style-type:none; }
@@ -257,8 +254,8 @@ h2 + p, h2 + ul {
 	padding-left:.6em;
 	padding-right: .6em;	
 		@media screen and (min-width: $width-medium) { 
-			padding-left: .8em;
-			padding-right: .8em;		
+			padding-left:.1em;
+			padding-right:.1em;		
 		}		
 }
 
@@ -266,8 +263,8 @@ h3 + p, h3 + ul, h3 + p + p {
 	padding-left:.6em;
 	padding-right: .6em;	
 		@media screen and (min-width: $width-medium) { 
-			padding-left: .6em;
-			padding-right: .6em;		
+			padding-left:.05em;
+			padding-right:.05em;		
 		}		
 }
 
@@ -280,9 +277,8 @@ h3 + p, h3 + ul, h3 + p + p {
 	background-color:rgba(255,255,255,1.0);
 }
 .title {
-	border-bottom:1px solid rgba(97, 97, 97, 1.0);
-	margin-bottom:.35em;
-	padding:0em .4em .25em .4em;
+	font-family: $font-sans;
+	padding:0;
 	width: 100%;	
 	@media screen and (min-width: $width-medium) { 
 			max-width:20em;	
@@ -435,10 +431,10 @@ html.no-touch .thumb-image img {
 button {
 	color: rgba(255,255,255,1.0); 
 	background-color:rgba(117,117,117,1.0); 
-	@include rounded(.625em);
+	@include rounded(.5em);
 	font-family:$font-sans;
-	font-size:90%;
-	padding:1em 2em;
+	font-size:100%;
+	padding:.75em 1.5em;
 	cursor:pointer;
 	border:1px solid rgba(255,255,255,1.0);
 	-webkit-transition: all .2s ease-in-out;
@@ -526,6 +522,7 @@ ul li a {
 footer {
 	background-color: rgba(66,66,66,1.0);
 	color:rgba(255,255,255,1.0);
+	padding: $section-spacing-narrow;
 	ul {
 		margin-bottom: 1.25em;	
 	}
@@ -545,18 +542,18 @@ footer {
 			margin-right:1.25em;	
 			&:last-child { margin-right:0; }
 		}
-		
+		padding:2.5em $wide-padding-topbottom;
 	}	
 }
 
 .copyright {
-	font: 400 100%/1.65 $font-sans;
+	font: 400 75%/1.65 $font-sans;
 	text-transform:uppercase;
-	letter-spacing:.05em;
-	color:rgba(255,255,255,1.0);
+	letter-spacing:.1em;
+	color:rgba(255,255,255,0.7);
 	padding:0 .6em;	
 	@media screen and (min-width: $width-medium) { 
-		padding:0 1.1em;	
+		padding:0 .3em;	
 	}
 }
 
@@ -570,7 +567,6 @@ nav {
 	position:relative;
 	width:100%;
 	z-index:100;
-	max-width:$width-max;
 	margin:0 auto;
 	padding:2em 1.75em;
 	background-color:rgba(255,255,255,1.0);
@@ -583,14 +579,12 @@ nav {
 	}
 	@media screen and (min-width: $width-medium) { 
 		display:block;
-		padding:3em;
+		padding:3em $wide-padding-topbottom;
 		height:9.688em;
-		h1 {
-			line-height:inherit;	
-		}
 	}
 }
 .header-logo {
+	font-size:150%;
 	float:left;
 	display:block;
 	z-index:100;
@@ -615,7 +609,7 @@ nav {
 	li {
 		@media screen and (min-width: $width-medium) { 
 			float:left;
-			padding-right:1.250em;
+			padding-right:2.8em;
 			&:last-child {
 				padding-right:0;		
 			}

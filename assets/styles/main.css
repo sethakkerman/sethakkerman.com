@@ -45,10 +45,10 @@ em { font-style: italic; }
 
 div, article, section, header, footer, nav, figure, li { position: relative; }
 
-body { padding: 0; margin: 0; background-color: #eeeeee; }
+body { padding: 0; margin: 0; background-color: #eaeaea; }
 
-header, footer { padding: 1.4em; }
-@media screen and (min-width: 30em) { header, footer { padding: 2.5em; } }
+header { padding: 1.4em; }
+@media screen and (min-width: 30em) { header { padding: 3.5em 2.5em 3.5em 2.5em; } }
 
 .documentation { padding: 1.4em; }
 @media screen and (min-width: 30em) { .documentation { padding: 2.5em; } }
@@ -56,8 +56,7 @@ header, footer { padding: 1.4em; }
 .documentation.process .project-detail-heading { padding-left: .85em; padding-right: .85em; }
 .documentation.process .project-detail-content { padding-left: .6em; padding-right: .6em; padding-bottom: .6em; }
 
-header { background-color: #eeeeee; }
-@media screen and (min-width: 56.25em) { header { border-left: 1px solid #dddddd; border-right: 1px solid #dddddd; } }
+header { background-color: #eaeaea; }
 
 ul { list-style: none; }
 
@@ -81,14 +80,14 @@ img + img { margin-top: .15em; }
 a { text-decoration: none; -webkit-transition: all .2s ease-in-out; -moz-transition: all .2s ease-in-out; -o-transition: all .2s ease-in-out; transition: all .2s ease-in-out; }
 
 h2 + p, h2 + ul { padding-left: .6em; padding-right: .6em; }
-@media screen and (min-width: 56.25em) { h2 + p, h2 + ul { padding-left: .8em; padding-right: .8em; } }
+@media screen and (min-width: 56.25em) { h2 + p, h2 + ul { padding-left: .1em; padding-right: .1em; } }
 
 h3 + p, h3 + ul, h3 + p + p { padding-left: .6em; padding-right: .6em; }
-@media screen and (min-width: 56.25em) { h3 + p, h3 + ul, h3 + p + p { padding-left: .6em; padding-right: .6em; } }
+@media screen and (min-width: 56.25em) { h3 + p, h3 + ul, h3 + p + p { padding-left: .05em; padding-right: .05em; } }
 
 .main-wrapper { position: relative; margin: 0 auto; max-width: 90em; width: 100%; background-color: white; }
 
-.title { border-bottom: 1px solid #616161; margin-bottom: .35em; padding: 0em .4em .25em .4em; width: 100%; }
+.title { font-family: "ff-tisa-sans-web-pro", "Helvetica Neue", Helvetica, sans-serif; padding: 0; width: 100%; }
 @media screen and (min-width: 56.25em) { .title { max-width: 20em; } }
 
 .column_content { width: 100%; overflow: hidden; display: table; height: 100%; }
@@ -149,7 +148,7 @@ html.no-touch .thumb-image img:hover { opacity: 1.0; }
 .read-more { display: none; }
 @media screen and (min-width: 56.25em) { .read-more { display: block; } }
 
-button { color: white; background-color: #757575; -webkit-border-radius: 0.625em; -moz-border-radius: 0.625em; border-radius: 0.625em; font-family: "ff-tisa-sans-web-pro", "Helvetica Neue", Helvetica, sans-serif; font-size: 90%; padding: 1em 2em; cursor: pointer; border: 1px solid white; -webkit-transition: all .2s ease-in-out; -moz-transition: all .2s ease-in-out; -o-transition: all .2s ease-in-out; transition: all .2s ease-in-out; display: block; margin: 0 auto; }
+button { color: white; background-color: #757575; -webkit-border-radius: 0.5em; -moz-border-radius: 0.5em; border-radius: 0.5em; font-family: "ff-tisa-sans-web-pro", "Helvetica Neue", Helvetica, sans-serif; font-size: 100%; padding: .75em 1.5em; cursor: pointer; border: 1px solid white; -webkit-transition: all .2s ease-in-out; -moz-transition: all .2s ease-in-out; -o-transition: all .2s ease-in-out; transition: all .2s ease-in-out; display: block; margin: 0 auto; }
 button.show-me-more { color: #757575; border: 1px solid #757575; background-color: white; margin-bottom: 1em; }
 @media screen and (min-width: 56.25em) { button.show-me-more { display: none; } }
 html.no-touch button.show-me-more:hover { background-color: #757575; color: white; border: 1px solid #757575; }
@@ -172,30 +171,30 @@ html.no-touch ul li a:hover { color: rgba(61, 61, 61, 0.85); }
 .bottom-nav .bottom-nav-text { display: none; }
 @media screen and (min-width: 56.25em) { .bottom-nav .bottom-nav-text { display: inline; } }
 
-footer { background-color: #424242; color: white; }
+footer { background-color: #424242; color: white; padding: 1.4em; }
 footer ul { margin-bottom: 1.25em; }
 footer ul li a { color: rgba(255, 255, 255, 0.7); }
 html.no-touch footer ul li a:hover { color: white; }
 @media screen and (min-width: 56.25em) { footer ul li { display: inline-block; } }
-@media screen and (min-width: 56.25em) { footer ul li { margin-right: 1.25em; }
+@media screen and (min-width: 56.25em) { footer { padding: 2.5em 9em; }
+  footer ul li { margin-right: 1.25em; }
   footer ul li:last-child { margin-right: 0; } }
 
-.copyright { font: 400 100%/1.65 "ff-tisa-sans-web-pro", "Helvetica Neue", Helvetica, sans-serif; text-transform: uppercase; letter-spacing: .05em; color: white; padding: 0 .6em; }
-@media screen and (min-width: 56.25em) { .copyright { padding: 0 1.1em; } }
+.copyright { font: 400 75%/1.65 "ff-tisa-sans-web-pro", "Helvetica Neue", Helvetica, sans-serif; text-transform: uppercase; letter-spacing: .1em; color: rgba(255, 255, 255, 0.7); padding: 0 .6em; }
+@media screen and (min-width: 56.25em) { .copyright { padding: 0 .3em; } }
 
-nav { overflow: hidden; position: relative; width: 100%; z-index: 100; max-width: 90em; margin: 0 auto; padding: 2em 1.75em; background-color: white; }
+nav { overflow: hidden; position: relative; width: 100%; z-index: 100; margin: 0 auto; padding: 2em 1.75em; background-color: white; }
 nav h1 { line-height: 2.25; }
 nav ul { font-size: 110%; }
 @media screen and (min-width: 30em) { nav { padding: 2em 2.75em; } }
-@media screen and (min-width: 56.25em) { nav { display: block; padding: 3em; height: 9.688em; }
-  nav h1 { line-height: inherit; } }
+@media screen and (min-width: 56.25em) { nav { display: block; padding: 3em 9em; height: 9.688em; } }
 
-.header-logo { float: left; display: block; z-index: 100; position: relative; }
+.header-logo { font-size: 150%; float: left; display: block; z-index: 100; position: relative; }
 .header-logo a { color: inherit; }
 
 .site-nav-wrapper { display: table; float: right; width: 100%; margin: 0 auto; padding: 0; height: 100%; top: -4.313em; }
 @media screen and (min-width: 56.25em) { .site-nav-wrapper ul { float: right; } }
-@media screen and (min-width: 56.25em) { .site-nav-wrapper li { float: left; padding-right: 1.250em; }
+@media screen and (min-width: 56.25em) { .site-nav-wrapper li { float: left; padding-right: 2.8em; }
   .site-nav-wrapper li:last-child { padding-right: 0; } }
 @media screen and (max-width: 30em) { .site-nav-wrapper { top: -1em; } }
 @media screen and (min-width: 56.25em) { .site-nav-wrapper { display: block; width: auto; height: 100%; padding-top: .95em; top: 0; } }
