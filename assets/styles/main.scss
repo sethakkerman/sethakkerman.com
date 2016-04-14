@@ -71,7 +71,7 @@ $font-serif: "ff-tisa-web-pro",Georgia,serif;
 $section-spacing-wide: 2.5em; 
 //This number should be reflected in button.show-me-more as well.
 $section-spacing-narrow: 1.4em; 
-$wide-padding-topbottom: 9em;
+$wide-padding-topbottom: 2.5em;
 $hover: 0.85;
 $seth-brand-color: rgba(60,184,120,1.0);
 
@@ -275,6 +275,9 @@ h3 + p, h3 + ul, h3 + p + p {
 	max-width:$width-max;
 	width:100%;
 	background-color:rgba(255,255,255,1.0);
+	@media screen and (min-width: $width-medium) { 
+			margin-bottom:4em;	
+	}
 }
 .title {
 	font-family: $font-sans;
@@ -494,6 +497,12 @@ ul li a {
 	}
 }
 
+.footer-wrapper {
+	margin:0 auto;
+	width:100%;
+	background-color: rgba(66,66,66,1.0);
+}
+
 .bottom-nav {
 	background-color: rgba(117,117,117,1.0);
 	margin-top:0;
@@ -520,8 +529,9 @@ ul li a {
 }
 
 footer {
-	background-color: rgba(66,66,66,1.0);
 	color:rgba(255,255,255,1.0);
+	max-width:$width-max;
+	margin:0 auto;
 	padding: $section-spacing-narrow;
 	ul {
 		margin-bottom: 1.25em;	
@@ -561,11 +571,18 @@ footer {
 //	06 Header / Nav
 // =========================
 
+.nav-wrapper {
+	margin:0 auto;
+	width:100%;
+	background-color:rgba(255, 255, 255, 1.0);
+}
+
 // 1440px / 16 = 90em
 nav { 
 	overflow:hidden;
 	position:relative;
 	width:100%;
+	max-width:$width-max;
 	z-index:100;
 	margin:0 auto;
 	padding:2em 1.75em;
