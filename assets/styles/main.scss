@@ -2,11 +2,11 @@
 Well hello there! Thanks for taking a look around. If you are curious about the SCSS document feeding this main.css, just swap out the suffix in your browser's address bar.
 */
 
-// =======================================================================
+// ==========================================================================
 // CSS by Seth Akkerman
-// Hugely inspired by the organizational skills of Elliot Jay Stocks
-// Last updated: 06/21/2015
-// =======================================================================
+// Organization and layout inspired by Elliot Jay Stocks
+// Last updated: 05/08/2016
+// ==========================================================================
 // Contents:
 // 01 Meyer Reset
 // 02 SASS Mixins
@@ -23,7 +23,7 @@ Well hello there! Thanks for taking a look around. If you are curious about the 
 // 08 Mike Doughty Owl Interaction
 // 09 Flexslider
 // 10 MailChimp Form Styles
-// =======================================================================
+// ==========================================================================
 
 // =========================
 //	01 Meyer Reset
@@ -42,7 +42,7 @@ Well hello there! Thanks for taking a look around. If you are curious about the 
 }
 // These values aside from color should be reflected in the .copyright
 @mixin small-sub-text {
-	font: 400 100%/1.65 $font-sans;
+	font: 400 100%/1.4 $font-sans;
 	color:rgba(97,97,97,1.0);
 	text-transform:uppercase;
 	letter-spacing:.05em;
@@ -280,6 +280,7 @@ h3 + p, h3 + ul, h3 + p + p {
 	background-color:rgba(255,255,255,1.0);
 	@media screen and (min-width: $width-medium) { 
 			margin-bottom:4em;	
+			width:90%;
 	}
 }
 .title {
@@ -353,19 +354,20 @@ html.no-touch .thumb-image img {
 	}	
 }
 .project-callout-shell  {
-		padding: $section-spacing-wide;
-		line-height:1.45;
+		padding: 3em; //was $section-spacing-wide
+		line-height:1.5; //was 1.45
 		background-color:rgba(0,0,0,.15);
 		& .project-callout {
 			font-size:140%;
 			color:rgba(66,66,66,1.0);
 			padding-bottom:0;
 			@media screen and (min-width: $width-medium) {
-				font-size:200%;
+				font-size:160%; //was 200%
 			}
 		}
 		@media screen and (min-width: $width-medium) {
 			padding:7%;
+			line-height:1.6;
 		}
 }
 .column-1-of-3 {
@@ -401,7 +403,7 @@ html.no-touch .thumb-image img {
 	background-color:rgba(204,195,100,1.0);	
 }
 .theakkermans {
-	background-color:rgba(190,190,190,1.0);
+	background-color:rgba(215,215,215,1.0);
 }
 .dark {
 	background-color:rgba(66,66,66,1.0);	
@@ -417,13 +419,13 @@ html.no-touch .thumb-image img {
 	background-color:rgba(194, 170, 83, 1);
 }
 .scadux, .logo-color {
-	background-color:rgba(230,230,230,1.0);	
+	background-color:rgba(215,215,215,1.0);	
 }
 .absolutehorseradish {
-	background-color:rgba(78,201,155,1.0);	
+	background-color:rgba(215,215,215,1.0); //was rgba(78,201,155,1.0)	
 }
-.absolutehorseradish-video {
-	background-color:rgba(0,0,0,0.15);	
+.absolutehorseradish-video, .foolsquest-video {
+	background-color:rgba(50,50,50,1.0);	
 }
 .project-types {
 	@include small-sub-text;
@@ -552,12 +554,16 @@ footer {
 		display:inline-block;
 	}
 	}
+	@media screen and (min-width: $width-tiny) { 
+		padding: $section-spacing-wide;
+	}
 	@media screen and (min-width: $width-medium) {
 		ul li {
 			margin-right:1.25em;	
 			&:last-child { margin-right:0; }
 		}
 		padding:2.5em $wide-padding-topbottom;
+		width:90%;
 	}	
 }
 
@@ -603,6 +609,7 @@ nav {
 		display:block;
 		padding:3em $wide-padding-topbottom;
 		height:9.688em;
+		width:90%;
 	}
 }
 .header-logo {
@@ -825,6 +832,10 @@ html.no-touch .navicon-button:hover .navicon:before, html.no-touch .navicon-butt
 	color:#333333;	
 }
 
+.test_mouse_test {
+	background-color: #b0dcdd;	
+}
+
 // ======================================
 //	09 Flexslider
 // ======================================
@@ -897,7 +908,7 @@ html[xmlns] .slides {display: block;}
 
 .flexslider {
 	padding: 1.25em 1.25em 1.3em 1.25em;
-	background-color:rgba(238,238,238,1.0);
+	background-color:rgba(215,215,215,1.0);
 	@media screen and (min-width: $width-medium) { 
 		padding: 5em 5em 2em 5em;
 	}	
