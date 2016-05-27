@@ -194,6 +194,9 @@ header {
 	@media screen and (min-width: $width-tiny) { 
 		padding: $section-spacing-wide;
 	}
+	& a {
+		color:$seth-brand-color;	
+	}
 	&.process {
 		h3.title {
 			border-bottom:none;	
