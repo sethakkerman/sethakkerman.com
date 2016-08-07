@@ -427,6 +427,12 @@ html.no-touch .thumb-image img {
 .absolutehorseradish {
 	background-color:rgba(215,215,215,1.0); //was rgba(78,201,155,1.0)	
 }
+.scadcoursecards {
+	background-color:rgba(44,63,79,1.0);	
+	& .project-callout {
+		color:rgba(255,255,255,1.0);	
+	}
+}
 .absolutehorseradish-video, .foolsquest-video {
 	background-color:rgba(50,50,50,1.0);	
 }
