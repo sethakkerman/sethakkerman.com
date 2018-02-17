@@ -335,7 +335,10 @@ h3 + p, h3 + ul, h3 + p + p {
 }
 .thumb-image {
 	img {
-		opacity:1.0;
+		-webkit-transform: scale3d(1.0,1.0,1.0);
+		-moz-transform: scale3d(1.0,1.0,1.0);
+		-o-transform: scale3d(1.0,1.0,1.0);
+		transform: scale3d(1.0,1.0,1.0);
 	}
 }
 .thumb-image-left {
@@ -349,13 +352,15 @@ h3 + p, h3 + ul, h3 + p + p {
 	}
 }
 html.no-touch .thumb-image img {
-	opacity:.9;
 	-webkit-transition: all .2s ease-in-out;
   	-moz-transition: all .2s ease-in-out;
   	-o-transition: all .2s ease-in-out;
   	transition: all .2s ease-in-out; 
 	&:hover {
-		opacity:1.0;	
+		-webkit-transform: scale3d(1.025,1.025,1);
+		-moz-transform: scale3d(1.025,1.025,1);
+		-o-transition: scale3d(1.025,1.025,1);
+		transform: scale3d(1.025,1.025,1);	
 	}	
 }
 .project-callout-shell  {
