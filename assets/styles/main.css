@@ -20,6 +20,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 html { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 
 body { font: 400 100%/1.6 "ff-tisa-web-pro", Georgia, serif; color: #212121; text-rendering: optimizeLegibility; }
+.wf-loading body { visibility: hidden; }
 
 h1, h2 { font-size: 150%; font-weight: 700; font-style: normal; -webkit-transition: all .2s ease-in-out; -moz-transition: all .2s ease-in-out; -o-transition: all .2s ease-in-out; transition: all .2s ease-in-out; }
 @media screen and (min-width: 56.25em) { h1, h2 { font-size: 200%; } }
@@ -32,9 +33,11 @@ p a, ul a { color: #9e9e9e; }
 p a:hover, ul a:hover { color: black; }
 @media screen and (min-width: 56.25em) { p, ul { max-width: 41.667em; } }
 p.project-detail-heading, ul.project-detail-heading { font-family: "ff-tisa-sans-web-pro", "Helvetica Neue", Helvetica, sans-serif; font-size: 85%; letter-spacing: .138em; font-weight: 700; padding-bottom: 0; text-transform: uppercase; color: black; }
+.wf-loading p.project-detail-heading, .wf-loading ul.project-detail-heading { visibility: hidden; }
 p.project-detail-content, ul.project-detail-content { padding-bottom: .9em; }
 p.project-detail-content:last-child, ul.project-detail-content:last-child { padding-bottom: 1.25em; }
 p.photo-credit, ul.photo-credit { font-family: "ff-tisa-sans-web-pro", "Helvetica Neue", Helvetica, sans-serif; font-size: 50%; letter-spacing: .138em; text-transform: uppercase; color: #999999; padding-left: 0.2em; padding-right: 0.2em; padding-bottom: 0; margin-top: 1em; }
+.wf-loading p.photo-credit, .wf-loading ul.photo-credit { visibility: hidden; }
 @media screen and (min-width: 56.25em) { p.photo-credit, ul.photo-credit { max-width: 87.667em; padding-left: 0.2em; padding-right: 0.2em; } }
 
 em { font-style: italic; }
@@ -91,6 +94,7 @@ h3 + p, h3 + ul, h3 + p + p { padding-left: 0; padding-right: 0; padding-top: .2
 @media screen and (min-width: 56.25em) { .main-wrapper { margin-bottom: 4em; width: 90%; } }
 
 .title { font-family: "ff-tisa-sans-web-pro", "Helvetica Neue", Helvetica, sans-serif; padding: 0; width: 100%; line-height: 1.4; }
+.wf-loading .title { visibility: hidden; }
 @media screen and (min-width: 56.25em) { .title { max-width: 20em; line-height: inherit; } }
 
 .column_content { width: 100%; overflow: hidden; display: table; height: 100%; }
@@ -150,11 +154,13 @@ html.no-touch .thumb-image img:hover { -webkit-transform: scale3d(1.025, 1.025, 
 .absolutehorseradish-video, .foolsquest-video { background-color: #323232; }
 
 .project-types { font: 400 85%/1.4 "ff-tisa-sans-web-pro", "Helvetica Neue", Helvetica, sans-serif; color: #616161; text-transform: uppercase; letter-spacing: .075em; margin-bottom: 2em; padding-bottom: 0; }
+.wf-loading .project-types { visibility: hidden; }
 
 .read-more { display: none; }
 @media screen and (min-width: 56.25em) { .read-more { display: block; } }
 
 button { color: white; background-color: #757575; -webkit-border-radius: 0.5em; -moz-border-radius: 0.5em; border-radius: 0.5em; font-family: "ff-tisa-sans-web-pro", "Helvetica Neue", Helvetica, sans-serif; font-size: 100%; padding: .75em 1.5em; cursor: pointer; border: 1px solid white; -webkit-transition: all .2s ease-in-out; -moz-transition: all .2s ease-in-out; -o-transition: all .2s ease-in-out; transition: all .2s ease-in-out; display: block; margin: 0 auto; }
+.wf-loading button { visibility: hidden; }
 button.show-me-more { color: #757575; border: 1px solid #757575; background-color: white; margin-bottom: 1em; }
 @media screen and (min-width: 56.25em) { button.show-me-more { display: none; } }
 html.no-touch button.show-me-more:hover { background-color: #757575; color: white; border: 1px solid #757575; }
@@ -190,6 +196,7 @@ html.no-touch footer ul li a:hover { color: white; }
   footer ul li:last-child { margin-right: 0; } }
 
 .copyright { font: 400 75%/1.65 "ff-tisa-sans-web-pro", "Helvetica Neue", Helvetica, sans-serif; text-transform: uppercase; letter-spacing: .1em; color: rgba(255, 255, 255, 0.7); padding: 0 .2em; }
+.wf-loading .copyright { visibility: hidden; }
 @media screen and (min-width: 56.25em) { .copyright { padding: 0 .3em; } }
 
 .nav-wrapper { margin: 0 auto; width: 100%; background-color: white; }

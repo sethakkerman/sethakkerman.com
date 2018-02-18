@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en" class="wf-loading">
 <head>
 <meta charset="UTF-8">
 <title>Fool's Quest Music Video</title>
@@ -11,8 +11,16 @@
 
 <script src="assets/js/modernizr.custom.01854.js"></script>
 
-<script src="https://use.typekit.net/too6jej.js"></script>
-<script>try{Typekit.load({ async: true });}catch(e){}</script>
+<script>
+  (function(d) {
+    var config = {
+      kitId: 'too6jej',
+      scriptTimeout: 3000,
+      async: true
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  })(document);
+</script>
 
 <!-- For non-Retina (@1× display) iPhone, iPod Touch, and Android 2.1+ devices: -->
 <link rel="apple-touch-icon-precomposed" href="assets/touch_icons/apple-touch-icon-precomposed.png"><!-- 57×57px -->
