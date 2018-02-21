@@ -102,7 +102,7 @@ h1, h2 {
 	font-size: 150%;	
 	@include general-header-qualities;
 	@media screen and (min-width: $width-medium) { 
-		font-size: 200%;
+		font-size: 175%;
 	}
 }	
 h3 {
@@ -189,7 +189,7 @@ nav,
 figure,
 li { position:relative; }
 
-body { padding:0; margin:0;	background-color: rgba(240,240,240,1.0); }
+body { padding:0; margin:0;	background-color: rgba(247,247,247,1.0); }
 
 header {
 	padding: $section-spacing-narrow;
@@ -224,7 +224,7 @@ header {
 	}
 }
 header {
-	background-color:rgba(240,240,240,1.0);
+	background-color:rgba(247,247,247,1.0);
 }
 ul { list-style:none; }
 li { list-style-type:none; }

@@ -23,7 +23,7 @@ body { font: 400 100%/1.6 "ff-tisa-web-pro", Georgia, serif; color: #212121; tex
 .wf-loading body { visibility: hidden; }
 
 h1, h2 { font-size: 150%; font-weight: 700; font-style: normal; -webkit-transition: all .2s ease-in-out; -moz-transition: all .2s ease-in-out; -o-transition: all .2s ease-in-out; transition: all .2s ease-in-out; }
-@media screen and (min-width: 56.25em) { h1, h2 { font-size: 200%; } }
+@media screen and (min-width: 56.25em) { h1, h2 { font-size: 175%; } }
 
 h3 { font-size: 150%; font-weight: 700; font-style: normal; -webkit-transition: all .2s ease-in-out; -moz-transition: all .2s ease-in-out; -o-transition: all .2s ease-in-out; transition: all .2s ease-in-out; }
 @media screen and (min-width: 56.25em) { h3 { font-size: 138%; } }
@@ -48,7 +48,7 @@ em { font-style: italic; }
 
 div, article, section, header, footer, nav, figure, li { position: relative; }
 
-body { padding: 0; margin: 0; background-color: #f0f0f0; }
+body { padding: 0; margin: 0; background-color: #f7f7f7; }
 
 header { padding: 1.75em; }
 @media screen and (min-width: 30em) { header { padding: 3.5em 2.5em 3.5em 2.5em; } }
@@ -61,7 +61,7 @@ header a { color: #3cb878; }
 .documentation.process .project-detail-heading { padding-left: .85em; padding-right: .85em; }
 .documentation.process .project-detail-content { padding-left: .6em; padding-right: .6em; padding-bottom: .6em; }
 
-header { background-color: #f0f0f0; }
+header { background-color: #f7f7f7; }
 
 ul { list-style: none; }
 
