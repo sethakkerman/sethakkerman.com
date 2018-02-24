@@ -28,7 +28,7 @@ h1, h2 { font-size: 150%; font-weight: 700; font-style: normal; -webkit-transiti
 h3 { font-size: 150%; font-weight: 700; font-style: normal; -webkit-transition: all .2s ease-in-out; -moz-transition: all .2s ease-in-out; -o-transition: all .2s ease-in-out; transition: all .2s ease-in-out; }
 @media screen and (min-width: 56.25em) { h3 { font-size: 138%; } }
 
-p, ul { font-size: 120%; color: #616161; padding-bottom: 1.5em; }
+p, ul { font-size: 120%; color: #515151; padding-bottom: 1.5em; }
 p a, ul a { color: #9e9e9e; }
 p a:hover, ul a:hover { color: black; }
 @media screen and (min-width: 56.25em) { p, ul { max-width: 41.667em; } }
