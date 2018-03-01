@@ -21,25 +21,25 @@ $(function() {
 			if (percentagePosition <= 25 && percentagePosition >= 0) {
 					$('.mousetest_image li').css('display','none');
 					$('.mousetest_image li:nth-child(1)').css('display', 'inline');
-					$('.owl_colors').html('&nbsp;- First Color');
+					$('.owl_colors').html('&nbsp;First Color');
 				}
 				
 				else if (percentagePosition <= 50 && percentagePosition > 25) {
 					$('.mousetest_image li').css('display','none');
 					$('.mousetest_image li:nth-child(2)').css('display', 'inline');
-					$('.owl_colors').html('&nbsp;- Second Color');
+					$('.owl_colors').html('&nbsp;Second Color');
 				}
 				
 				else if (percentagePosition <= 75 && percentagePosition > 50) {
 					$('.mousetest_image li').css('display','none');
 					$('.mousetest_image li:nth-child(3)').css('display', 'inline');
-					$('.owl_colors').html('&nbsp;- Third Color');
+					$('.owl_colors').html('&nbsp;Third Color');
 				}
 				
 				else if (percentagePosition <= 100 && percentagePosition > 75) {
 					$('.mousetest_image li').css('display','none');
 					$('.mousetest_image li:nth-child(4)').css('display', 'inline');
-					$('.owl_colors').html('&nbsp;- Fourth Color');
+					$('.owl_colors').html('&nbsp;Fourth Color');
 				}
 				
 				else {
@@ -71,25 +71,25 @@ $(function() {
 			if (percentagePosition <= 25 && percentagePosition >= 0) {
 					$('.mousetest_image li').css('display','none');
 					$('.mousetest_image li:nth-child(1)').css('display', 'inline');
-					$('.owl_colors').html('&nbsp;- First Color');
+					$('.owl_colors').html('&nbsp;First Color');
 				}
 				
 				else if (percentagePosition <= 50 && percentagePosition > 25) {
 					$('.mousetest_image li').css('display','none');
 					$('.mousetest_image li:nth-child(2)').css('display', 'inline');
-					$('.owl_colors').html('&nbsp;- Second Color');
+					$('.owl_colors').html('&nbsp;Second Color');
 				}
 				
 				else if (percentagePosition <= 75 && percentagePosition > 50) {
 					$('.mousetest_image li').css('display','none');
 					$('.mousetest_image li:nth-child(3)').css('display', 'inline');
-					$('.owl_colors').html('&nbsp;- Third Color');
+					$('.owl_colors').html('&nbsp;Third Color');
 				}
 				
 				else if (percentagePosition <= 100 && percentagePosition > 75) {
 					$('.mousetest_image li').css('display','none');
 					$('.mousetest_image li:nth-child(4)').css('display', 'inline');
-					$('.owl_colors').html('&nbsp;- Fourth Color');
+					$('.owl_colors').html('&nbsp;Fourth Color');
 				}
 				
 				else {
@@ -105,7 +105,7 @@ $(function() {
 		 $('.test_mouse_test').bind('touchend', function() {
 		  $('.mousetest_image li').css('display','none');
 					$('.mousetest_image li:nth-child(4)').css('display', 'inline');
-		 $('.owl_colors').html('');
+		 $('.owl_colors').html('&nbsp;Final Illustration');
 		 
 		 
 	  });
@@ -125,25 +125,25 @@ $(function() {
 			if (percentagePosition <= 25 && percentagePosition >= 0) {
 					$('.mousetest_image li').css('display','none');
 					$('.mousetest_image li:nth-child(1)').css('display', 'inline');
-					$('.owl_colors').html('&nbsp;- First Color');
+					$('.owl_colors').html('&nbsp;First Color');
 				}
 				
 				else if (percentagePosition <= 50 && percentagePosition > 25) {
 					$('.mousetest_image li').css('display','none');
 					$('.mousetest_image li:nth-child(2)').css('display', 'inline');
-					$('.owl_colors').html('&nbsp;- Second Color');
+					$('.owl_colors').html('&nbsp;Second Color');
 				}
 				
 				else if (percentagePosition <= 75 && percentagePosition > 50) {
 					$('.mousetest_image li').css('display','none');
 					$('.mousetest_image li:nth-child(3)').css('display', 'inline');
-					$('.owl_colors').html('&nbsp;- Third Color');
+					$('.owl_colors').html('&nbsp;Third Color');
 				}
 				
 				else if (percentagePosition <= 100 && percentagePosition > 75) {
 					$('.mousetest_image li').css('display','none');
 					$('.mousetest_image li:nth-child(4)').css('display', 'inline');
-					$('.owl_colors').html('&nbsp;- Fourth Color');
+					$('.owl_colors').html('&nbsp;Fourth Color');
 				}
 				
 				else {
@@ -155,7 +155,7 @@ $(function() {
 	  $('.mousetest').mouseleave(function() {
 		 $('.mousetest_image li').css('display','none');
 					$('.mousetest_image li:nth-child(4)').css('display', 'inline');
-		 $('.owl_colors').html('');
+		 $('.owl_colors').html('&nbsp;Final Illustration');
 	  });
 	}
 	

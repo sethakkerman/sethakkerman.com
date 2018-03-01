@@ -78,7 +78,7 @@ $section-spacing-wide: 2.5em;
 $section-spacing-narrow: 1.75em; 
 $section-spacing-narrow-runningtext: 1.4em;
 $wide-padding-topbottom: 2.5em;
-$hover: 0.85;
+$hover: 0.95;
 $seth-brand-color: rgba(60,184,120,1.0);
 
 // =========================
@@ -189,21 +189,33 @@ nav,
 figure,
 li { position:relative; }
 
-body { padding:0; margin:0;	background-color: rgba(247,247,247,1.0); }
+body { padding:0; margin:0;	background-color: rgba(250,250,250,1.0); }
 
 header {
-	padding: $section-spacing-narrow;
+	padding: $section-spacing-narrow; margin:0 auto;
 	@media screen and (min-width: $width-tiny) { 
 		padding: 3.5em 2.5em 3.5em 2.5em;
 	}
 	& a {
 		color:$seth-brand-color;
 	}
+	@media screen and (min-width: $width-medium) { 	
+		width:90%;
+	}
 }
 .documentation {
 	padding: $section-spacing-narrow;
+	padding-top:0;
+	width:100%;
+	margin:0 auto;
+	padding-bottom:2.5em;
 	@media screen and (min-width: $width-tiny) { 
 		padding: $section-spacing-wide;
+		padding-top:0;
+	}
+	@media screen and (min-width: $width-medium) {
+		width: 90%;
+		padding-bottom:5em;
 	}
 	& a {
 		color:$seth-brand-color;	
@@ -213,23 +225,35 @@ header {
 			border-bottom:none;	
 		}
 		.project-detail-heading {
-			padding-left:.85em;
-			padding-right: .85em;		
+			//padding-left:.85em;
+			//padding-right: .85em;		
 		}
 		.project-detail-content {
-			padding-left:.6em;
-			padding-right: .6em;	
+			//padding-left:.6em;
+			//padding-right: .6em;	
 			padding-bottom:.6em;	
 		}	
 	}
+	&.index{
+		padding-top:0;
+		@media screen and (min-width: $width-medium) {
+			padding-top:2.5em;
+		}
+	}
 }
 header {
-	background-color:rgba(247,247,247,1.0);
+	background-color:rgba(250,250,250,1.0);
 }
 ul { list-style:none; }
 li { list-style-type:none; }
 // Setting the img to display block is to get rid of the weird, tiny 4px white space between the images horizontally.
-img { width:100%; display:block; } 
+img { 
+	width:100%; display:block; margin:0 auto; margin-bottom:2.5em; 
+	@media screen and (min-width: $width-medium) { 	
+		width:90%;
+		margin-bottom:5em;
+	}
+} 
 img + img {
 	margin-top:.15em;	
 }
@@ -238,7 +262,6 @@ img + img {
 }
 .logo-presentation {
 	width:100%;
-	margin:0 auto;
 	@media screen and (min-width: $width-medium) { 
 		width:65%;
 	}
@@ -254,9 +277,13 @@ img + img {
 	}	
 }
 .embedded_video {
+	margin-bottom:2.5em;
 	& figure {
 		max-width:62.5em;
 		margin:0 auto;	
+	}
+	@media screen and (min-width: $width-medium) { 
+		margin-bottom:5em;
 	}
 }
 a { text-decoration:none;
@@ -291,11 +318,7 @@ h3 + p, h3 + ul, h3 + p + p {
 	margin: 0 auto;
 	max-width:$width-max;
 	width:100%;
-	background-color:rgba(255,255,255,1.0);
-	@media screen and (min-width: $width-medium) { 
-			margin-bottom:4em;	
-			width:90%;
-	}
+	background-color:rgba(250,250,250,1.0);
 }
 .title {
 	font-family: $font-sans;
@@ -313,6 +336,14 @@ h3 + p, h3 + ul, h3 + p + p {
 	overflow:hidden;
 	display:table;	
 	height:100%;
+	margin:0 auto;
+	margin-bottom:2.5em;
+	img {margin-bottom:0; width:100%;}
+	&.index { margin-bottom:0; }
+	@media screen and (min-width: $width-medium) { 
+		width:90%;
+		margin-bottom:5em;
+	}
 }
 .last-project-column + .bottom-nav { margin-top:0em;
 	@media screen and (min-width: $width-medium) { 
@@ -376,19 +407,28 @@ html.no-touch .thumb-image img {
 .project-callout-shell  {
 		padding: 3em; //was $section-spacing-wide
 		line-height:1.5; //was 1.45
-		background-color:rgba(0,0,0,.15);
+		background-color:rgba(240,240,240,1.0);
 		& .project-callout {
 			font-size:140%;
 			color:rgba(66,66,66,1.0);
 			padding-bottom:0;
+			margin:0 auto;
 			@media screen and (min-width: $width-medium) {
 				font-size:160%; //was 200%
+			}
+		}
+		&.wide-callout {
+			margin-bottom:2.5em;
+			@media screen and (min-width: $width-medium) {
+				margin-bottom:5em;
+				padding: 7% 25%;
 			}
 		}
 		@media screen and (min-width: $width-medium) {
 			padding:7%;
 			line-height:1.6;
 		}
+		img{width:100%;}
 }
 .column-1-of-3 {
 	display:table-cell;
@@ -423,7 +463,7 @@ html.no-touch .thumb-image img {
 	background-color:rgba(204,195,100,1.0);	
 }
 .theakkermans {
-	background-color:rgba(215,215,215,1.0);
+	background-color:rgba(240,240,240,1.0);
 }
 .dark {
 	background-color:rgba(66,66,66,1.0);	
@@ -439,19 +479,23 @@ html.no-touch .thumb-image img {
 	background-color:rgba(194, 170, 83, 1);
 }
 .scadux, .logo-color {
-	background-color:rgba(215,215,215,1.0);	
+	background-color:rgba(240,240,240,1.0);	
 }
 .absolutehorseradish {
-	background-color:rgba(215,215,215,1.0); //was rgba(78,201,155,1.0)	
+	background-color:rgba(240,240,240,1.0); //was rgba(78,201,155,1.0)	
 }
 .scadcoursecards {
 	background-color:rgba(44,63,79,1.0);	
-	& .project-callout {
+	& .project-callout, & .project-detail-heading {
 		color:rgba(255,255,255,1.0);	
 	}
 }
 .absolutehorseradish-video, .foolsquest-video {
 	background-color:rgba(50,50,50,1.0);	
+}
+
+.process-video{
+	background-color:rgba(0,0,0,0.15);
 }
 .project-types {
 	@include small-sub-text;
@@ -466,15 +510,15 @@ html.no-touch .thumb-image img {
 	}
 }
 button {
-	color: rgba(255,255,255,1.0); 
-	background-color:rgba(117,117,117,1.0); 
-	@include rounded(.5em);
+	color: rgba(81,81,81,1.0); 
+	background-color:rgba(242,242,242,1.0); 
+	@include rounded(.35em);
 	font-family:$font-sans;
 	@include preventFOUT;
 	font-size:100%;
 	padding:.75em 1.5em;
 	cursor:pointer;
-	border:1px solid rgba(255,255,255,1.0);
+	border:1px solid rgba(81,81,81,1.0);
 	-webkit-transition: all .2s ease-in-out;
   	-moz-transition: all .2s ease-in-out;
   	-o-transition: all .2s ease-in-out;
@@ -482,23 +526,23 @@ button {
 	display:block;
 	margin:0 auto;
 	&.show-me-more {
-		color: rgba(117,117,117,1.0);
-		border:1px solid rgba(117,117,117,1.0);
-		background-color:rgba(255,255,255,1.0);
+		color: rgba(81,81,81,1.0);
+		border:1px solid rgba(81,81,81,1.0);
+		background-color:rgba(250,250,250,1.0);
 		margin-bottom:1em;
 		@media screen and (min-width: $width-medium) { 
 			display:none;
 		}
 		html.no-touch &:hover {
-		background-color: rgba(117,117,117,1.0);
-		color:rgba(255,255,255,1.0);
-		border:1px solid rgba(117,117,117,1.0);		
+		background-color: rgba(81,81,81,1.0);
+		color:rgba(250,250,250,1.0);
+		border:1px solid rgba(81,81,81,1.0);		
 		}	
 	}
 	html.no-touch &:hover {
-		background-color: rgba(255,255,255,1.0);
-		color:rgba(117,117,117,1.0);
-		border:1px solid rgba(255,255,255,1.0);		
+		background-color: rgba(81,81,81,1.0);
+		color:rgba(242,242,242,1.0);
+		border:1px solid rgba(81,81,81,1.0);		
 	}
 	&:focus {
 		outline:none;	
@@ -518,7 +562,7 @@ button {
 }
 
 ul li a {
-	color:rgba(61,61,61,0.60);
+	color:rgba(61,61,61,0.70);
 	-webkit-transition: all .2s ease-in-out;
   	-moz-transition: all .2s ease-in-out;
   	-o-transition: all .2s ease-in-out;
@@ -539,7 +583,7 @@ ul li a {
 }
 
 .bottom-nav {
-	background-color: rgba(117,117,117,1.0);
+	background-color: rgba(242,242,242,1.0);
 	margin-top:0;
 	text-align:center;
 	padding:2.5em 0;
@@ -614,7 +658,7 @@ footer {
 .nav-wrapper {
 	margin:0 auto;
 	width:100%;
-	background-color:rgba(255, 255, 255, 1.0);
+	background-color:rgba(242, 242, 242, 1.0);
 }
 
 // 1440px / 16 = 90em
@@ -626,7 +670,7 @@ nav {
 	z-index:100;
 	margin:0 auto;
 	padding:2em 1.75em;
-	background-color:rgba(255,255,255,1.0);
+	background-color:rgba(242,242,242,1.0);
 	h1 {
 		line-height:2.25;
 	}
@@ -708,7 +752,7 @@ nav {
 	font-size:150%;
 }
 .site-nav-main {
-	position: absolute;
+	position: relative;
 	top:7.375em;	
 }
 
@@ -821,6 +865,13 @@ html.no-touch .navicon-button:hover .navicon:before, html.no-touch .navicon-butt
 	background-color:rgba(255,255,255,1.0);
 	height:100%;
 	overflow:hidden;
+	width:100%;
+	margin:0 auto;
+	margin-bottom:2.5em;
+	@media screen and (min-width: $width-medium) { 	
+		width:90%;
+		margin-bottom:5em;
+	}
 }
 .poster-image {
 	overflow:hidden;
@@ -831,6 +882,7 @@ html.no-touch .navicon-button:hover .navicon:before, html.no-touch .navicon-butt
 		max-width:100%;
 		height:auto;
 		border:0;
+		margin-bottom:0;
 	}
 }
 
@@ -892,7 +944,7 @@ html.no-touch .navicon-button:hover .navicon:before, html.no-touch .navicon-butt
 .flexslider {margin: 0; padding: 0;}
 // Hide the slides before the JS is loaded. Avoids image jumping
 .flexslider .slides > li {display: none; -webkit-backface-visibility: hidden;}
-.flexslider .slides img {width: 100%; display: block;}
+.flexslider .slides img {width: 100%; display: block; margin-bottom:0em;}
 .flexslider .slides video {width: 100%;height:auto;display:inline-block;}
 .flex-pauseplay span {text-transform: capitalize;}
 
@@ -937,9 +989,14 @@ html[xmlns] .slides {display: block;}
 
 .flexslider {
 	padding: 1.25em 1.25em 1.3em 1.25em;
-	background-color:rgba(215,215,215,1.0);
+	background-color:rgba(240,240,240,1.0);
+	width:100%;
+	margin:0 auto;
+	margin-bottom:2.5em;
 	@media screen and (min-width: $width-medium) { 
 		padding: 5em 5em 2em 5em;
+		width:90%;
+		margin-bottom:5em;
 	}	
 }
 
