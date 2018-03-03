@@ -200,7 +200,7 @@ header {
 		color:$seth-brand-color;
 	}
 	@media screen and (min-width: $width-medium) { 	
-		width:90%;
+		//width:90%;
 	}
 }
 .documentation {
@@ -214,7 +214,7 @@ header {
 		padding-top:0;
 	}
 	@media screen and (min-width: $width-medium) {
-		width: 90%;
+		//width: 90%;
 		padding-bottom:5em;
 	}
 	& a {
@@ -250,7 +250,7 @@ li { list-style-type:none; }
 img { 
 	width:100%; display:block; margin:0 auto; margin-bottom:2.5em; 
 	@media screen and (min-width: $width-medium) { 	
-		width:90%;
+		//width:90%;
 		margin-bottom:5em;
 	}
 } 
@@ -341,7 +341,7 @@ h3 + p, h3 + ul, h3 + p + p {
 	img {margin-bottom:0; width:100%;}
 	&.index { margin-bottom:0; }
 	@media screen and (min-width: $width-medium) { 
-		width:90%;
+		//width:90%;
 		margin-bottom:5em;
 	}
 }
@@ -635,7 +635,7 @@ footer {
 			&:last-child { margin-right:0; }
 		}
 		padding:2.5em $wide-padding-topbottom;
-		width:90%;
+		//width:90%;
 	}	
 }
 
@@ -682,7 +682,7 @@ nav {
 		display:block;
 		padding:3em $wide-padding-topbottom;
 		height:9.688em;
-		width:90%;
+		//width:90%;
 	}
 }
 .header-logo {
@@ -869,7 +869,7 @@ html.no-touch .navicon-button:hover .navicon:before, html.no-touch .navicon-butt
 	margin:0 auto;
 	margin-bottom:2.5em;
 	@media screen and (min-width: $width-medium) { 	
-		width:90%;
+		//width:90%;
 		margin-bottom:5em;
 	}
 }
@@ -995,7 +995,7 @@ html[xmlns] .slides {display: block;}
 	margin-bottom:2.5em;
 	@media screen and (min-width: $width-medium) { 
 		padding: 5em 5em 2em 5em;
-		width:90%;
+		//width:90%;
 		margin-bottom:5em;
 	}	
 }
