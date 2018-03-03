@@ -490,13 +490,6 @@ html.no-touch .thumb-image img {
 		color:rgba(255,255,255,1.0);	
 	}
 }
-.absolutehorseradish-video, .foolsquest-video {
-	background-color:rgba(50,50,50,1.0);	
-}
-
-.process-video{
-	background-color:rgba(0,0,0,0.15);
-}
 .project-types {
 	@include small-sub-text;
 	@include preventFOUT;

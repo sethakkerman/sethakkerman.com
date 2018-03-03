@@ -161,10 +161,6 @@ html.no-touch .thumb-image img:hover { -webkit-transform: scale3d(1.025, 1.025, 
 .scadcoursecards { background-color: #2c3f4f; }
 .scadcoursecards .project-callout, .scadcoursecards .project-detail-heading { color: white; }
 
-.absolutehorseradish-video, .foolsquest-video { background-color: #323232; }
-
-.process-video { background-color: rgba(0, 0, 0, 0.15); }
-
 .project-types { font: 400 85%/1.4 "ff-tisa-sans-web-pro", "Helvetica Neue", Helvetica, sans-serif; color: #616161; text-transform: uppercase; letter-spacing: .075em; margin-bottom: 2em; padding-bottom: 0; }
 .wf-loading .project-types { visibility: hidden; }
 
