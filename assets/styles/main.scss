@@ -504,8 +504,8 @@ html.no-touch .thumb-image img {
 }
 button {
 	color: rgba(81,81,81,1.0); 
-	background-color:rgba(242,242,242,1.0); 
-	@include rounded(.35em);
+	background-color:rgba(250,250,250,1.0); 
+	@include rounded(6px);
 	font-family:$font-sans;
 	@include preventFOUT;
 	font-size:100%;
@@ -528,13 +528,13 @@ button {
 		}
 		html.no-touch &:hover {
 		background-color: rgba(81,81,81,1.0);
-		color:rgba(250,250,250,1.0);
+		color:rgba(255,255,255,1.0);
 		border:1px solid rgba(81,81,81,1.0);		
 		}	
 	}
 	html.no-touch &:hover {
 		background-color: rgba(81,81,81,1.0);
-		color:rgba(242,242,242,1.0);
+		color:rgba(255,255,255,1.0);
 		border:1px solid rgba(81,81,81,1.0);		
 	}
 	&:focus {
@@ -551,32 +551,40 @@ button {
 		&.single-line-li {
 			padding-bottom:0;	
 		}
+    a {
+    html.no-touch &:hover {
+    color:rgba(0,0,0,1.0);
+    border-bottom:none;
+  }
+
+    }
 	}
 }
 
 ul li a {
 	color:rgba(61,61,61,0.70);
-	-webkit-transition: all .2s ease-in-out;
-  	-moz-transition: all .2s ease-in-out;
-  	-o-transition: all .2s ease-in-out;
-  	transition: all .2s ease-in-out;
+	-webkit-transition: all .1s ease-in-out;
+  	-moz-transition: all .1s ease-in-out;
+  	-o-transition: all .1s ease-in-out;
+  	transition: all .1s ease-in-out;
 	font-size:105%;
 	&.current {
 		color:rgba(0,0,0,1.0);	
 	}
 	html.no-touch &:hover {
-		color:rgba(61,61,61,$hover);	
+		color:$seth-brand-color;
+    border-bottom:1px solid	$seth-brand-color;
 	}
 }
 
 .footer-wrapper {
 	margin:0 auto;
 	width:100%;
-	background-color: rgba(66,66,66,1.0);
+	background-color: rgba(242,242,242,1.0);
 }
 
 .bottom-nav {
-	background-color: rgba(242,242,242,1.0);
+	background-color: rgba(250,250,250,1.0);
 	margin-top:0;
 	text-align:center;
 	padding:2.5em 0;
@@ -601,7 +609,7 @@ ul li a {
 }
 
 footer {
-	color:rgba(255,255,255,1.0);
+	//color:rgba(255,255,255,1.0);
 	max-width:$width-max;
 	margin:0 auto;
 	padding: $section-spacing-narrow;
@@ -610,9 +618,9 @@ footer {
 	}
 	ul li {
 		& a {
-			color:rgba(255,255,255,0.7);
+			//color:rgba(255,255,255,0.7);
 			html.no-touch &:hover {
-				color:rgba(255,255,255,1.0);	
+				//color:rgba(255,255,255,1.0);	
 			}
 		}
 		@media screen and (min-width: $width-medium) {
@@ -636,7 +644,7 @@ footer {
 	font: 400 75%/1.65 $font-sans;
 	text-transform:uppercase;
 	letter-spacing:.1em;
-	color:rgba(255,255,255,0.7);
+	color:rgba(61,61,61,0.7);
 	padding:0 .2em;	
 	@include preventFOUT;
 	@media screen and (min-width: $width-medium) { 
@@ -651,7 +659,7 @@ footer {
 .nav-wrapper {
 	margin:0 auto;
 	width:100%;
-	background-color:rgba(242, 242, 242, 1.0);
+	background-color:rgba(250, 250, 250, 1.0);
 }
 
 // 1440px / 16 = 90em
@@ -663,7 +671,7 @@ nav {
 	z-index:100;
 	margin:0 auto;
 	padding:2em 1.75em;
-	background-color:rgba(242,242,242,1.0);
+	background-color:rgba(250,250,250,1.0);
 	h1 {
 		line-height:2.25;
 	}
@@ -785,7 +793,7 @@ html.no-touch .navicon-button:hover .navicon:before, html.no-touch .navicon-butt
 .navicon { 
 	position: relative;
 	width: 2.25em;
-	height: .3em;
+	height: .1em;
 	background: rgba(0,0,0,1.0);
 	transition: 0.5s;
 	border-radius: 2.5em; 
@@ -794,7 +802,7 @@ html.no-touch .navicon-button:hover .navicon:before, html.no-touch .navicon-butt
 .navicon:before, .navicon:after {
   display: block;
   content: "";
-  height: .3em;
+  height: .1em;
   width: 2.25em;
   background: rgba(0,0,0,1.0);
   position: absolute;
