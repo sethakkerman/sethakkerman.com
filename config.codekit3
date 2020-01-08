@@ -527,6 +527,13 @@
 		"oAP": "\/.sass-cache\/f884e76cbe99499ab4aacc9693537b4237f57d6f\/style.scssc",
 		"oF": 0
 		},
+	"\/2012card.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/2012card.html",
+		"oF": 0
+		},
 	"\/2014archive\/apple-touch-icon-precomposed.png": {
 		"ft": 32768,
 		"iS": 2742,
@@ -778,11 +785,32 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/2014running.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/2014running.html",
+		"oF": 0
+		},
 	"\/_notes\/dwsync.xml": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_notes\/dwsync.xml",
+		"oF": 0
+		},
+	"\/about.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/about.html",
+		"oF": 0
+		},
+	"\/absolutehorseradish.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/absolutehorseradish.html",
 		"oF": 0
 		},
 	"\/assets\/audio\/horse.mp3": {
@@ -2779,6 +2807,29 @@
 		"oAP": "\/assets\/styles\/.sass-cache\/e4a607731bccd9f02226f4fc17341f6ed051d00b\/meyer-reset.scssc",
 		"oF": 0
 		},
+	"\/assets\/styles\/main.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/styles\/main-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/assets\/styles\/main.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/styles\/main.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/assets\/styles\/meyer-reset.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -2920,6 +2971,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/assets\/video\/coursecard_colorvariations.webmhd.webm",
+		"oF": 0
+		},
+	"\/contact.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/contact.html",
 		"oF": 0
 		},
 	"\/correspondence\/_notes\/dwsync.xml": {
@@ -3098,11 +3156,32 @@
 		"oAP": "\/errors\/_notes\/dwsync.xml",
 		"oF": 0
 		},
+	"\/errors\/notfound.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/errors\/notfound.html",
+		"oF": 0
+		},
 	"\/favicon.ico": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/favicon.ico",
+		"oF": 0
+		},
+	"\/foolsquest.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/foolsquest.html",
+		"oF": 0
+		},
+	"\/fowlapproach.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fowlapproach.html",
 		"oF": 0
 		},
 	"\/gdla\/_notes\/dwsync.xml": {
@@ -3293,6 +3372,13 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/index.html",
+		"oF": 0
 		},
 	"\/instrument\/.gitignore": {
 		"cB": 0,
@@ -3579,13 +3665,6 @@
 		"oAP": "\/is_portland_bound\/index.html",
 		"oF": 0
 		},
-	"\/Library\/_notes\/dwsync.xml": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/Library\/_notes\/dwsync.xml",
-		"oF": 0
-		},
 	"\/Library\/Footer.lbi": {
 		"cB": 0,
 		"ft": 8192,
@@ -3598,6 +3677,20 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/Library\/ProjectNav.lbi",
+		"oF": 0
+		},
+	"\/logos.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/logos.html",
+		"oF": 0
+		},
+	"\/luxuryfashion.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/luxuryfashion.html",
 		"oF": 0
 		},
 	"\/mailchimp\/_notes\/dwsync.xml": {
@@ -3762,6 +3855,20 @@
 		"oAP": "\/mailchimp\/index.html",
 		"oF": 0
 		},
+	"\/mikedoughty.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/mikedoughty.html",
+		"oF": 0
+		},
+	"\/process.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/process.html",
+		"oF": 0
+		},
 	"\/README.md": {
 		"cB": 0,
 		"cS": 0,
@@ -3779,6 +3886,62 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"\/scadcoursecards.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/scadcoursecards.html",
+		"oF": 0
+		},
+	"\/scadux.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/scadux.html",
+		"oF": 0
+		},
+	"\/secession.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/secession.html",
+		"oF": 0
+		},
+	"\/spayandneuter.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/spayandneuter.html",
+		"oF": 0
+		},
+	"\/telfairball.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/telfairball.html",
+		"oF": 0
+		},
+	"\/theakkermans.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/theakkermans.html",
+		"oF": 0
+		},
+	"\/tybeesurf.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/tybeesurf.html",
+		"oF": 0
+		},
+	"\/wildthings.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/wildthings.html",
+		"oF": 0
 		},
 	"\/working_files\/built_tests\/muleDesign\/assets\/css\/style.css": {
 		"aP": 1,
@@ -12356,11 +12519,11 @@
 	"languageDefaultsKIT": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.html",
-		"autoOutputPathRelativePath": "",
+		"autoOutputPathRelativePath": "..\/",
 		"autoOutputPathReplace1": "kit",
 		"autoOutputPathReplace2": "html",
-		"autoOutputPathStyle": 0,
-		"shouldRunCacheBuster": 0
+		"autoOutputPathStyle": 2,
+		"shouldRunCacheBuster": 1
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
