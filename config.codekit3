@@ -1285,6 +1285,89 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/assets\/images\/gaugeEditorial_01.png": {
+		"ft": 32768,
+		"iS": 16141,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gaugeEditorial_01.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/gaugeEditorial_02.jpg": {
+		"ft": 16384,
+		"iS": 150616,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gaugeEditorial_02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/gaugeEditorial_03.jpg": {
+		"ft": 16384,
+		"iS": 115251,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gaugeEditorial_03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/gaugeEditorial_04.png": {
+		"ft": 32768,
+		"iS": 889087,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gaugeEditorial_04.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/gaugeEditorial_05.jpg": {
+		"ft": 16384,
+		"iS": 170336,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gaugeEditorial_05.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/gaugeEditorial_inuse.png": {
+		"ft": 32768,
+		"iS": 543030,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gaugeEditorial_inuse.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/gaugeEditorial_poster.jpg": {
+		"ft": 16384,
+		"iS": 328097,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gaugeEditorial_poster.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/gaugeEditorial_thumb.jpg": {
+		"ft": 16384,
+		"iS": 255588,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gaugeEditorial_thumb.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/assets\/images\/holdyourhorses.jpg": {
 		"ft": 16384,
 		"iS": 598109,
@@ -2971,6 +3054,23 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/assets\/video\/coursecard_colorvariations.webmhd.webm",
+		"oF": 0
+		},
+	"\/assets\/video\/gaugeeditorial_motionSamples.jpg": {
+		"ft": 16384,
+		"iS": 292787,
+		"oA": 0,
+		"oAP": "\/assets\/video\/gaugeeditorial_motionSamples.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/video\/gaugeeditorial_motionSamples.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/video\/gaugeeditorial_motionSamples.mp4",
 		"oF": 0
 		},
 	"\/contact.html": {
