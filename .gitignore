@@ -22,6 +22,7 @@ assets/styles/.sass-cache/*
 
 # OS Generated Files #
 config.codekit
+config.codekit3
 _notes/
 .DS_Store*
 Thumbs.db
