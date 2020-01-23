@@ -1723,6 +1723,209 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/assets\/images\/recentWork-munroShoes-01.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/recentWork-munroShoes-01.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/recentWork-otcmarketing-01.jpg": {
+		"ft": 16384,
+		"iS": 365891,
+		"oA": 0,
+		"oAP": "\/assets\/images\/recentWork-otcmarketing-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/recentWork-otcmarketing-02.jpg": {
+		"ft": 16384,
+		"iS": 358967,
+		"oA": 0,
+		"oAP": "\/assets\/images\/recentWork-otcmarketing-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/recentWork-otcmarketing-03.jpg": {
+		"ft": 16384,
+		"iS": 406769,
+		"oA": 0,
+		"oAP": "\/assets\/images\/recentWork-otcmarketing-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/recentWork-otcmarketing-04.jpg": {
+		"ft": 16384,
+		"iS": 415366,
+		"oA": 0,
+		"oAP": "\/assets\/images\/recentWork-otcmarketing-04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/recentWork-processing-01.jpg": {
+		"ft": 16384,
+		"iS": 583226,
+		"oA": 0,
+		"oAP": "\/assets\/images\/recentWork-processing-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/recentWork-processing-01.png": {
+		"ft": 32768,
+		"iS": 172366,
+		"oA": 0,
+		"oAP": "\/assets\/images\/recentWork-processing-01.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/recentWork-processing-02.jpg": {
+		"ft": 16384,
+		"iS": 275486,
+		"oA": 0,
+		"oAP": "\/assets\/images\/recentWork-processing-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/recentWork-southernTide-01.png": {
+		"ft": 32768,
+		"iS": 1134535,
+		"oA": 0,
+		"oAP": "\/assets\/images\/recentWork-southernTide-01.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/recentWork-thumb.jpg": {
+		"ft": 16384,
+		"iS": 350770,
+		"oA": 0,
+		"oAP": "\/assets\/images\/recentWork-thumb.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/recentWork-twoTides-01.jpg": {
+		"ft": 16384,
+		"iS": 471176,
+		"oA": 0,
+		"oAP": "\/assets\/images\/recentWork-twoTides-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/recentWork-twoTides-02.jpg": {
+		"ft": 16384,
+		"iS": 59550,
+		"oA": 0,
+		"oAP": "\/assets\/images\/recentWork-twoTides-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/recentWork-twoTides-03.jpg": {
+		"ft": 16384,
+		"iS": 973464,
+		"oA": 0,
+		"oAP": "\/assets\/images\/recentWork-twoTides-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/recentWork-twoTides-04.jpg": {
+		"ft": 16384,
+		"iS": 598142,
+		"oA": 0,
+		"oAP": "\/assets\/images\/recentWork-twoTides-04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/recentWork-twoTides-05.jpg": {
+		"ft": 16384,
+		"iS": 471648,
+		"oA": 0,
+		"oAP": "\/assets\/images\/recentWork-twoTides-05.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/recentWork-twoTides-06.jpg": {
+		"ft": 16384,
+		"iS": 785032,
+		"oA": 0,
+		"oAP": "\/assets\/images\/recentWork-twoTides-06.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/recentWork-twoTides-07.jpg": {
+		"ft": 16384,
+		"iS": 166435,
+		"oA": 0,
+		"oAP": "\/assets\/images\/recentWork-twoTides-07.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/recentWork-twoTides-08.jpg": {
+		"ft": 16384,
+		"iS": 110403,
+		"oA": 0,
+		"oAP": "\/assets\/images\/recentWork-twoTides-08.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/recentWork-twoTides-09.jpg": {
+		"ft": 16384,
+		"iS": 127522,
+		"oA": 0,
+		"oAP": "\/assets\/images\/recentWork-twoTides-09.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/recentWork-twoTides-10.jpg": {
+		"ft": 16384,
+		"iS": 115145,
+		"oA": 0,
+		"oAP": "\/assets\/images\/recentWork-twoTides-10.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/assets\/images\/scadcoursecards_01.png": {
 		"ft": 32768,
 		"iS": 47703,
@@ -2269,6 +2472,26 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/twotidesbrewingco-poster.jpg": {
+		"ft": 16384,
+		"iS": 823825,
+		"oA": 0,
+		"oAP": "\/assets\/images\/twotidesbrewingco-poster.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/twotidesbrewingco-thumb.jpg": {
+		"ft": 16384,
+		"iS": 394340,
+		"oA": 0,
+		"oAP": "\/assets\/images\/twotidesbrewingco-thumb.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/images\/tybeesurf_01.jpg": {
@@ -3071,6 +3294,40 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/assets\/video\/gaugeeditorial_motionSamples.mp4",
+		"oF": 0
+		},
+	"\/assets\/video\/munro-process.jpg": {
+		"ft": 16384,
+		"iS": 243429,
+		"oA": 0,
+		"oAP": "\/assets\/video\/munro-process.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/video\/munro-process.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/video\/munro-process.mp4",
+		"oF": 0
+		},
+	"\/assets\/video\/recentWork-processing-02.jpg": {
+		"ft": 16384,
+		"iS": 162460,
+		"oA": 0,
+		"oAP": "\/assets\/video\/recentWork-processing-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/video\/recentWork-processing-02.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/video\/recentWork-processing-02.mp4",
 		"oF": 0
 		},
 	"\/contact.html": {
@@ -3993,6 +4250,13 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"\/recentwork.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/recentwork.html",
+		"oF": 0
 		},
 	"\/scadcoursecards.html": {
 		"cB": 0,
@@ -7739,6 +8003,228 @@
 		"oAP": "\/working_files\/process_images\/process_sketches.psd",
 		"oF": 0
 		},
+	"\/working_files\/Recent Work Page\/01-Assets\/sethAkkerman-twoTidesBrewingCo-coasters01.jpg": {
+		"ft": 16384,
+		"iS": 6159728,
+		"oA": 0,
+		"oAP": "\/working_files\/Recent Work Page\/01-Assets\/sethAkkerman-twoTidesBrewingCo-coasters01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/working_files\/Recent Work Page\/01-Assets\/sethAkkerman-twoTidesBrewingCo-flightCards.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/working_files\/Recent Work Page\/01-Assets\/sethAkkerman-twoTidesBrewingCo-flightCards.psd",
+		"oF": 0
+		},
+	"\/working_files\/Recent Work Page\/01-Assets\/sethAkkerman-twoTidesBrewingCo-glass01.jpg": {
+		"ft": 16384,
+		"iS": 1321907,
+		"oA": 0,
+		"oAP": "\/working_files\/Recent Work Page\/01-Assets\/sethAkkerman-twoTidesBrewingCo-glass01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/working_files\/Recent Work Page\/01-Assets\/sethAkkerman-twoTidesBrewingCo-hatPatch.jpg": {
+		"ft": 16384,
+		"iS": 5163947,
+		"oA": 0,
+		"oAP": "\/working_files\/Recent Work Page\/01-Assets\/sethAkkerman-twoTidesBrewingCo-hatPatch.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/working_files\/Recent Work Page\/01-Assets\/sethAkkerman-twoTidesBrewingCo-Logo.jpg": {
+		"ft": 16384,
+		"iS": 461503,
+		"oA": 0,
+		"oAP": "\/working_files\/Recent Work Page\/01-Assets\/sethAkkerman-twoTidesBrewingCo-Logo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/working_files\/Recent Work Page\/01-Assets\/sethAkkerman-twoTidesBrewingCo-Sign.jpg": {
+		"ft": 16384,
+		"iS": 1684777,
+		"oA": 0,
+		"oAP": "\/working_files\/Recent Work Page\/01-Assets\/sethAkkerman-twoTidesBrewingCo-Sign.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/working_files\/Recent Work Page\/01-Assets\/sethAkkerman-twoTidesBrewingCo-TTLogo.jpg": {
+		"ft": 16384,
+		"iS": 7204960,
+		"oA": 0,
+		"oAP": "\/working_files\/Recent Work Page\/01-Assets\/sethAkkerman-twoTidesBrewingCo-TTLogo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/working_files\/Recent Work Page\/01-Assets\/tt-one-01-liz-social.jpg": {
+		"ft": 16384,
+		"iS": 115873,
+		"oA": 0,
+		"oAP": "\/working_files\/Recent Work Page\/01-Assets\/tt-one-01-liz-social.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/working_files\/Recent Work Page\/01-Assets\/tt-one-02-liz-social.jpg": {
+		"ft": 16384,
+		"iS": 128251,
+		"oA": 0,
+		"oAP": "\/working_files\/Recent Work Page\/01-Assets\/tt-one-02-liz-social.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/working_files\/Recent Work Page\/01-Assets\/tt-rastalglass-02-liz-social.jpg": {
+		"ft": 16384,
+		"iS": 166435,
+		"oA": 0,
+		"oAP": "\/working_files\/Recent Work Page\/01-Assets\/tt-rastalglass-02-liz-social.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/working_files\/Recent Work Page\/01-Assets\/tt-rastalglass-03-liz-social.jpg": {
+		"ft": 16384,
+		"iS": 110403,
+		"oA": 0,
+		"oAP": "\/working_files\/Recent Work Page\/01-Assets\/tt-rastalglass-03-liz-social.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/working_files\/Recent Work Page\/02-Working Files\/sethakkerman-munroShoes.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/working_files\/Recent Work Page\/02-Working Files\/sethakkerman-munroShoes.psd",
+		"oF": 0
+		},
+	"\/working_files\/Recent Work Page\/02-Working Files\/sethakkerman-oldTimeCandy-friday13-AdParlor_Photo Post_Newsfeed_Preview.png": {
+		"ft": 32768,
+		"iS": 229059,
+		"oA": 0,
+		"oAP": "\/working_files\/Recent Work Page\/02-Working Files\/sethakkerman-oldTimeCandy-friday13-AdParlor_Photo Post_Newsfeed_Preview.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/working_files\/Recent Work Page\/02-Working Files\/sethakkerman-oldTimeCandy-newCandyFacebook-AdParlor_Photo Post_Newsfeed_Preview.png": {
+		"ft": 32768,
+		"iS": 165134,
+		"oA": 0,
+		"oAP": "\/working_files\/Recent Work Page\/02-Working Files\/sethakkerman-oldTimeCandy-newCandyFacebook-AdParlor_Photo Post_Newsfeed_Preview.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/working_files\/Recent Work Page\/02-Working Files\/sethakkerman-oldTimeCandy-Vday18-AdParlor_Photo Post_Newsfeed_Preview.png": {
+		"ft": 32768,
+		"iS": 225317,
+		"oA": 0,
+		"oAP": "\/working_files\/Recent Work Page\/02-Working Files\/sethakkerman-oldTimeCandy-Vday18-AdParlor_Photo Post_Newsfeed_Preview.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/working_files\/Recent Work Page\/02-Working Files\/sethakkerman-oldTimeCandyMarketing-christmas2017.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/working_files\/Recent Work Page\/02-Working Files\/sethakkerman-oldTimeCandyMarketing-christmas2017.psd",
+		"oF": 0
+		},
+	"\/working_files\/Recent Work Page\/02-Working Files\/sethakkerman-oldTimeCandyMarketing-Fridaythe13-AdParlor_Instagram Story_Mobile_Preview.png": {
+		"ft": 32768,
+		"iS": 149211,
+		"oA": 0,
+		"oAP": "\/working_files\/Recent Work Page\/02-Working Files\/sethakkerman-oldTimeCandyMarketing-Fridaythe13-AdParlor_Instagram Story_Mobile_Preview.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/working_files\/Recent Work Page\/02-Working Files\/sethakkerman-oldTimeCandyMarketing-fridaythe13.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/working_files\/Recent Work Page\/02-Working Files\/sethakkerman-oldTimeCandyMarketing-fridaythe13.psd",
+		"oF": 0
+		},
+	"\/working_files\/Recent Work Page\/02-Working Files\/sethakkerman-oldTimeCandyMarketing-newCandy.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/working_files\/Recent Work Page\/02-Working Files\/sethakkerman-oldTimeCandyMarketing-newCandy.psd",
+		"oF": 0
+		},
+	"\/working_files\/Recent Work Page\/02-Working Files\/sethakkerman-oldTimeCandyMarketing-vday2018.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/working_files\/Recent Work Page\/02-Working Files\/sethakkerman-oldTimeCandyMarketing-vday2018.psd",
+		"oF": 0
+		},
+	"\/working_files\/Recent Work Page\/02-Working Files\/sethakkerman-oldTimeCandyMarketing-Xmas17-AdParlor_Photo Post_Newsfeed_Preview.png": {
+		"ft": 32768,
+		"iS": 161929,
+		"oA": 0,
+		"oAP": "\/working_files\/Recent Work Page\/02-Working Files\/sethakkerman-oldTimeCandyMarketing-Xmas17-AdParlor_Photo Post_Newsfeed_Preview.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/working_files\/Recent Work Page\/02-Working Files\/sethakkerman-oldTimeCandyTwitter-AdParlor_Tweet_Desktop_Preview.png": {
+		"ft": 32768,
+		"iS": 139574,
+		"oA": 0,
+		"oAP": "\/working_files\/Recent Work Page\/02-Working Files\/sethakkerman-oldTimeCandyTwitter-AdParlor_Tweet_Desktop_Preview.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/working_files\/Recent Work Page\/02-Working Files\/sethakkerman-southernTide.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/working_files\/Recent Work Page\/02-Working Files\/sethakkerman-southernTide.psd",
+		"oF": 0
+		},
+	"\/working_files\/Recent Work Page\/02-Working Files\/tt-logos.ai": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/working_files\/Recent Work Page\/02-Working Files\/tt-logos.ai",
+		"oF": 0
+		},
 	"\/working_files\/sethakkerman-mid2018.sketch": {
 		"cB": 0,
 		"ft": 8192,
@@ -10512,6 +10998,13 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"\/working_files\/thumb_image_template.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/working_files\/thumb_image_template.psd",
+		"oF": 0
 		},
 	"\/working_files\/touch_icons.psd": {
 		"cB": 0,
