@@ -1285,6 +1285,89 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/assets\/images\/gaugeEditorial_01.png": {
+		"ft": 32768,
+		"iS": 16141,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gaugeEditorial_01.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/gaugeEditorial_02.jpg": {
+		"ft": 16384,
+		"iS": 150616,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gaugeEditorial_02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/gaugeEditorial_03.jpg": {
+		"ft": 16384,
+		"iS": 115251,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gaugeEditorial_03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/gaugeEditorial_04.png": {
+		"ft": 32768,
+		"iS": 889087,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gaugeEditorial_04.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/gaugeEditorial_05.jpg": {
+		"ft": 16384,
+		"iS": 170336,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gaugeEditorial_05.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/gaugeEditorial_inuse.png": {
+		"ft": 32768,
+		"iS": 543030,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gaugeEditorial_inuse.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/gaugeEditorial_poster.jpg": {
+		"ft": 16384,
+		"iS": 328097,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gaugeEditorial_poster.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/gaugeEditorial_thumb.jpg": {
+		"ft": 16384,
+		"iS": 218627,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gaugeEditorial_thumb.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/assets\/images\/holdyourhorses.jpg": {
 		"ft": 16384,
 		"iS": 598109,
@@ -1635,6 +1718,209 @@
 		"iS": 412347,
 		"oA": 0,
 		"oAP": "\/assets\/images\/process_poster.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/recentWork-munroShoes-01.png": {
+		"ft": 32768,
+		"iS": 271068,
+		"oA": 0,
+		"oAP": "\/assets\/images\/recentWork-munroShoes-01.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/recentWork-otcmarketing-01.jpg": {
+		"ft": 16384,
+		"iS": 304250,
+		"oA": 0,
+		"oAP": "\/assets\/images\/recentWork-otcmarketing-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/recentWork-otcmarketing-02.jpg": {
+		"ft": 16384,
+		"iS": 294441,
+		"oA": 0,
+		"oAP": "\/assets\/images\/recentWork-otcmarketing-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/recentWork-otcmarketing-03.jpg": {
+		"ft": 16384,
+		"iS": 354946,
+		"oA": 0,
+		"oAP": "\/assets\/images\/recentWork-otcmarketing-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/recentWork-otcmarketing-04.jpg": {
+		"ft": 16384,
+		"iS": 335149,
+		"oA": 0,
+		"oAP": "\/assets\/images\/recentWork-otcmarketing-04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/recentWork-processing-01.jpg": {
+		"ft": 16384,
+		"iS": 401117,
+		"oA": 0,
+		"oAP": "\/assets\/images\/recentWork-processing-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/recentWork-processing-01.png": {
+		"ft": 32768,
+		"iS": 93713,
+		"oA": 0,
+		"oAP": "\/assets\/images\/recentWork-processing-01.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/recentWork-processing-02.jpg": {
+		"ft": 16384,
+		"iS": 162460,
+		"oA": 0,
+		"oAP": "\/assets\/images\/recentWork-processing-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/recentWork-southernTide-01.png": {
+		"ft": 32768,
+		"iS": 357469,
+		"oA": 0,
+		"oAP": "\/assets\/images\/recentWork-southernTide-01.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/recentWork-thumb.jpg": {
+		"ft": 16384,
+		"iS": 283962,
+		"oA": 0,
+		"oAP": "\/assets\/images\/recentWork-thumb.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/recentWork-twoTides-01.jpg": {
+		"ft": 16384,
+		"iS": 317797,
+		"oA": 0,
+		"oAP": "\/assets\/images\/recentWork-twoTides-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/recentWork-twoTides-02.jpg": {
+		"ft": 16384,
+		"iS": 74156,
+		"oA": 0,
+		"oAP": "\/assets\/images\/recentWork-twoTides-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/recentWork-twoTides-03.jpg": {
+		"ft": 16384,
+		"iS": 592687,
+		"oA": 0,
+		"oAP": "\/assets\/images\/recentWork-twoTides-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/recentWork-twoTides-04.jpg": {
+		"ft": 16384,
+		"iS": 470510,
+		"oA": 0,
+		"oAP": "\/assets\/images\/recentWork-twoTides-04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/recentWork-twoTides-05.jpg": {
+		"ft": 16384,
+		"iS": 319524,
+		"oA": 0,
+		"oAP": "\/assets\/images\/recentWork-twoTides-05.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/recentWork-twoTides-06.jpg": {
+		"ft": 16384,
+		"iS": 531441,
+		"oA": 0,
+		"oAP": "\/assets\/images\/recentWork-twoTides-06.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/recentWork-twoTides-07.jpg": {
+		"ft": 16384,
+		"iS": 166435,
+		"oA": 0,
+		"oAP": "\/assets\/images\/recentWork-twoTides-07.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/recentWork-twoTides-08.jpg": {
+		"ft": 16384,
+		"iS": 110403,
+		"oA": 0,
+		"oAP": "\/assets\/images\/recentWork-twoTides-08.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/recentWork-twoTides-09.jpg": {
+		"ft": 16384,
+		"iS": 127522,
+		"oA": 0,
+		"oAP": "\/assets\/images\/recentWork-twoTides-09.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/recentWork-twoTides-10.jpg": {
+		"ft": 16384,
+		"iS": 115145,
+		"oA": 0,
+		"oAP": "\/assets\/images\/recentWork-twoTides-10.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -2183,6 +2469,26 @@
 		"iS": 50446,
 		"oA": 0,
 		"oAP": "\/assets\/images\/theakkermans_thumb.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/twotidesbrewingco-poster.jpg": {
+		"ft": 16384,
+		"iS": 622140,
+		"oA": 0,
+		"oAP": "\/assets\/images\/twotidesbrewingco-poster.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/twotidesbrewingco-thumb.jpg": {
+		"ft": 16384,
+		"iS": 338637,
+		"oA": 0,
+		"oAP": "\/assets\/images\/twotidesbrewingco-thumb.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -5808,6 +6114,57 @@
 		"oAP": "\/assets\/video\/coursecard_colorvariations.webmhd.webm",
 		"oF": 0
 		},
+	"\/assets\/video\/gaugeeditorial_motionSamples.jpg": {
+		"ft": 16384,
+		"iS": 292787,
+		"oA": 0,
+		"oAP": "\/assets\/video\/gaugeeditorial_motionSamples.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/video\/gaugeeditorial_motionSamples.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/video\/gaugeeditorial_motionSamples.mp4",
+		"oF": 0
+		},
+	"\/assets\/video\/munro-process.jpg": {
+		"ft": 16384,
+		"iS": 243429,
+		"oA": 0,
+		"oAP": "\/assets\/video\/munro-process.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/video\/munro-process.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/video\/munro-process.mp4",
+		"oF": 0
+		},
+	"\/assets\/video\/recentWork-processing-02.jpg": {
+		"ft": 16384,
+		"iS": 162460,
+		"oA": 0,
+		"oAP": "\/assets\/video\/recentWork-processing-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/video\/recentWork-processing-02.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/video\/recentWork-processing-02.mp4",
+		"oF": 0
+		},
 	"\/contact.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -6017,6 +6374,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/fowlapproach.html",
+		"oF": 0
+		},
+	"\/gaugeeditorial.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/gaugeeditorial.html",
 		"oF": 0
 		},
 	"\/gdla\/_notes\/dwsync.xml": {
@@ -6721,6 +7085,13 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"\/recentwork.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/recentwork.html",
+		"oF": 0
 		},
 	"\/scadcoursecards.html": {
 		"cB": 0,

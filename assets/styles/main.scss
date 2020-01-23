@@ -254,6 +254,13 @@ img {
 		margin-bottom:5em;
 	}
 } 
+video { 
+	width:100%; display:block; margin:0 auto; margin-bottom:2.5em; 
+	@media screen and (min-width: $width-medium) { 	
+		//width:90%;
+		margin-bottom:5em;
+	}
+} 
 img + img {
 	margin-top:.15em;	
 }
@@ -340,6 +347,7 @@ h3 + p, h3 + ul, h3 + p + p {
 	margin-bottom:2.5em;
 	img {margin-bottom:0; width:100%;}
 	&.index { margin-bottom:0; }
+	&.recent-work { margin-bottom:0; }
 	@media screen and (min-width: $width-medium) { 
 		//width:90%;
 		margin-bottom:5em;
@@ -416,6 +424,13 @@ html.no-touch .thumb-image img {
 			@media screen and (min-width: $width-medium) {
 				font-size:160%; //was 200%
 			}
+			& a {
+				color:$seth-brand-color;
+					html.no-touch &:hover {
+	    			color:rgba(0,0,0,1.0);
+	    			border-bottom:none;	
+					}
+				}
 		}
 		&.wide-callout {
 			margin-bottom:2.5em;
@@ -423,6 +438,13 @@ html.no-touch .thumb-image img {
 				margin-bottom:5em;
 				padding: 7% 25%;
 			}
+		}
+		&.project-callout-white {
+			margin-bottom:1em;
+			background-color: rgba(250,250,250,1.0);
+				@media screen and (min-width: $width-medium) {
+					margin-bottom:0;
+				}	
 		}
 		@media screen and (min-width: $width-medium) {
 			padding:7%;
@@ -457,6 +479,71 @@ html.no-touch .thumb-image img {
 	@media screen and (min-width: $width-medium) {
 		width:33.33%;
 		padding-left:.15em;
+	}
+}
+.grid-container {
+	display:grid;
+	grid-gap: 10px;
+	background-color:inherit;
+	padding:10px;
+	@media screen and (min-width: $width-medium) {
+		grid-template:auto / auto auto auto;
+	}
+}
+.grid-container-condensed {
+	max-width:100%;
+	margin:0 auto;
+	@media screen and (min-width: $width-medium) {
+		max-width:1100px;
+		margin:0 auto;
+	}
+}
+.grid-container-3 {
+	grid-template-columns:100% repeat;
+	grid-template-rows:auto;
+	@media screen and (min-width: $width-tiny) {
+		grid-template-columns: auto;
+	}
+}
+.grid-container-4 {
+	grid-template:auto / auto auto;
+}
+.grid-container-6 {
+	grid-template:auto / auto auto auto;
+}
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 1);
+  text-align: center;
+  padding: 0;
+  font-size: 30px;
+}
+.span3--3 {
+	grid-column: 1 / span 1;
+	& img {padding:20px;}
+	@media screen and (min-width: $width-tiny) {
+		grid-column: 3 / span 1;
+		& img {padding:0px;}
+	}
+}
+.span1--2 {
+	grid-column: 1 / span 1;
+	& img {padding:20px;}
+	@media screen and (min-width: $width-tiny) {
+		grid-column: 1 / span 2;
+		& img {padding:0px;}
+	}
+}
+.web-shadow {
+	-webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.15);
+	-moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.15);
+	box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.15);
+}
+.recent-work-wide {
+	max-width:100%;
+	margin:0 auto;
+	@media screen and (min-width: $width-medium) {
+		max-width:1300px;
+		margin:0 auto;
 	}
 }
 .running {
