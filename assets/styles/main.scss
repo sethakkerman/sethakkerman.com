@@ -189,7 +189,7 @@ nav,
 figure,
 li { position:relative; }
 
-body { padding:0; margin:0;	background-color: rgba(250,250,250,1.0); }
+body { padding:0; margin:0;	background-color: rgba(255,255,255,1.0); }
 
 header {
 	padding: $section-spacing-narrow; margin:0 auto;
@@ -207,6 +207,7 @@ header {
 	padding: $section-spacing-narrow;
 	padding-top:0;
 	width:100%;
+	max-width:50em;
 	margin:0 auto;
 	padding-bottom:2.5em;
 	@media screen and (min-width: $width-tiny) { 
@@ -240,9 +241,6 @@ header {
 			padding-top:2.5em;
 		}
 	}
-}
-header {
-	background-color:rgba(250,250,250,1.0);
 }
 ul { list-style:none; }
 li { list-style-type:none; }
@@ -325,7 +323,6 @@ h3 + p, h3 + ul, h3 + p + p {
 	margin: 0 auto;
 	max-width:$width-max;
 	width:100%;
-	background-color:rgba(250,250,250,1.0);
 }
 .title {
 	font-family: $font-sans;
@@ -415,7 +412,6 @@ html.no-touch .thumb-image img {
 .project-callout-shell  {
 		padding: 3em; //was $section-spacing-wide
 		line-height:1.5; //was 1.45
-		background-color:rgba(240,240,240,1.0);
 		& .project-callout {
 			font-size:140%;
 			color:rgba(66,66,66,1.0);
@@ -441,7 +437,6 @@ html.no-touch .thumb-image img {
 		}
 		&.project-callout-white {
 			margin-bottom:1em;
-			background-color: rgba(250,250,250,1.0);
 				@media screen and (min-width: $width-medium) {
 					margin-bottom:0;
 				}	
@@ -590,8 +585,7 @@ html.no-touch .thumb-image img {
 	}
 }
 button {
-	color: rgba(81,81,81,1.0); 
-	background-color:rgba(250,250,250,1.0); 
+	color: rgba(81,81,81,1.0);  
 	@include rounded(6px);
 	font-family:$font-sans;
 	@include preventFOUT;
@@ -608,7 +602,6 @@ button {
 	&.show-me-more {
 		color: rgba(81,81,81,1.0);
 		border:1px solid rgba(81,81,81,1.0);
-		background-color:rgba(250,250,250,1.0);
 		margin-bottom:1em;
 		@media screen and (min-width: $width-medium) { 
 			display:none;
@@ -671,7 +664,7 @@ ul li a {
 }
 
 .bottom-nav {
-	background-color: rgba(250,250,250,1.0);
+	background-color: rgba(255,255,255,1.0);
 	margin-top:0;
 	text-align:center;
 	padding:2.5em 0;
@@ -701,7 +694,8 @@ footer {
 	margin:0 auto;
 	padding: $section-spacing-narrow;
 	ul {
-		margin-bottom: 1.25em;	
+		margin-bottom: 0;
+		font-size:110%;	
 	}
 	ul li {
 		& a {
@@ -731,7 +725,7 @@ footer {
 	font: 400 75%/1.65 $font-sans;
 	text-transform:uppercase;
 	letter-spacing:.1em;
-	color:rgba(61,61,61,0.7);
+	color:rgba(61,61,61,1);
 	padding:0 .2em;	
 	@include preventFOUT;
 	@media screen and (min-width: $width-medium) { 
@@ -746,7 +740,6 @@ footer {
 .nav-wrapper {
 	margin:0 auto;
 	width:100%;
-	background-color:rgba(250, 250, 250, 1.0);
 }
 
 // 1440px / 16 = 90em
@@ -758,7 +751,6 @@ nav {
 	z-index:100;
 	margin:0 auto;
 	padding:2em 1.75em;
-	background-color:rgba(250,250,250,1.0);
 	h1 {
 		line-height:2.25;
 	}
@@ -1077,7 +1069,7 @@ html[xmlns] .slides {display: block;}
 
 .flexslider {
 	padding: 1.25em 1.25em 1.3em 1.25em;
-	background-color:rgba(240,240,240,1.0);
+	background-color:rgba(243,243,243,1.0);
 	width:100%;
 	margin:0 auto;
 	margin-bottom:2.5em;
