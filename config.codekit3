@@ -1378,6 +1378,116 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/assets\/images\/holidaycards-2011-01.jpg": {
+		"ft": 16384,
+		"iS": 1308966,
+		"oA": 0,
+		"oAP": "\/assets\/images\/holidaycards-2011-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/holidaycards-2014-01.jpg": {
+		"ft": 16384,
+		"iS": 839245,
+		"oA": 0,
+		"oAP": "\/assets\/images\/holidaycards-2014-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/holidaycards-2016-01.jpg": {
+		"ft": 16384,
+		"iS": 855618,
+		"oA": 0,
+		"oAP": "\/assets\/images\/holidaycards-2016-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/holidaycards-2016-02.jpg": {
+		"ft": 16384,
+		"iS": 846024,
+		"oA": 0,
+		"oAP": "\/assets\/images\/holidaycards-2016-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/holidaycards-2016-03.jpg": {
+		"ft": 16384,
+		"iS": 889646,
+		"oA": 0,
+		"oAP": "\/assets\/images\/holidaycards-2016-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/holidaycards-2016-04.jpg": {
+		"ft": 16384,
+		"iS": 973944,
+		"oA": 0,
+		"oAP": "\/assets\/images\/holidaycards-2016-04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/holidaycards-2016-05.jpg": {
+		"ft": 16384,
+		"iS": 1001218,
+		"oA": 0,
+		"oAP": "\/assets\/images\/holidaycards-2016-05.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/holidaycards-2016-06.jpg": {
+		"ft": 16384,
+		"iS": 766705,
+		"oA": 0,
+		"oAP": "\/assets\/images\/holidaycards-2016-06.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/holidaycards-2016-07.jpg": {
+		"ft": 16384,
+		"iS": 1099595,
+		"oA": 0,
+		"oAP": "\/assets\/images\/holidaycards-2016-07.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/holidaycards-2017-01.jpg": {
+		"ft": 16384,
+		"iS": 990231,
+		"oA": 0,
+		"oAP": "\/assets\/images\/holidaycards-2017-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/holidaycards-2020-01.jpg": {
+		"ft": 16384,
+		"iS": 1327657,
+		"oA": 0,
+		"oAP": "\/assets\/images\/holidaycards-2020-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/assets\/images\/logos_01.png": {
 		"ft": 32768,
 		"iS": 50144,
@@ -6151,6 +6261,23 @@
 		"oAP": "\/assets\/video\/gaugeeditorial_motionSamples.mp4",
 		"oF": 0
 		},
+	"\/assets\/video\/hand_gif_square.jpg": {
+		"ft": 16384,
+		"iS": 491649,
+		"oA": 0,
+		"oAP": "\/assets\/video\/hand_gif_square.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/video\/hand_gif_square.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/video\/hand_gif_square.mp4",
+		"oF": 0
+		},
 	"\/assets\/video\/munro-process.jpg": {
 		"ft": 16384,
 		"iS": 243429,
@@ -6591,6 +6718,13 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"\/holidaycards.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/holidaycards.html",
+		"oF": 0
 		},
 	"\/index.html": {
 		"cB": 0,
