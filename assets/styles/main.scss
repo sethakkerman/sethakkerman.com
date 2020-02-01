@@ -484,6 +484,9 @@ html.no-touch .thumb-image img {
 	@media screen and (min-width: $width-medium) {
 		grid-template:auto / auto auto auto;
 	}
+	&.grid-container-3-patternLibrary {
+		background-color: rgba(243,243,243,1.0);
+	}
 }
 .grid-container-condensed {
 	max-width:100%;
@@ -498,6 +501,13 @@ html.no-touch .thumb-image img {
 	grid-template-rows:auto;
 	@media screen and (min-width: $width-tiny) {
 		grid-template-columns: auto;
+	}
+}
+.grid-container-3-patternLibrary {
+	grid-template:auto / auto auto auto;
+	grid-template-columns: auto;
+	@media screen and (min-width: $width-tiny) {
+		grid-template:auto / auto auto auto;
 	}
 }
 .grid-container-4 {
@@ -576,6 +586,13 @@ html.no-touch .thumb-image img {
 	@include small-sub-text;
 	@include preventFOUT;
 	margin-bottom:2em;
+	padding-bottom:0;		
+}
+.project-types-roles {
+	@include small-sub-text;
+	@include preventFOUT;
+	margin-bottom:2em;
+	margin-top:1.5em;
 	padding-bottom:0;		
 }
 .read-more {

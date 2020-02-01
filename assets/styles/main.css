@@ -411,6 +411,8 @@ html.no-touch .thumb-image img {
   @media screen and (min-width: 56.25em) {
     .grid-container {
       grid-template: auto / auto auto auto; } }
+  .grid-container.grid-container-3-patternLibrary {
+    background-color: #f3f3f3; }
 
 .grid-container-condensed {
   max-width: 100%;
@@ -426,6 +428,13 @@ html.no-touch .thumb-image img {
   @media screen and (min-width: 30em) {
     .grid-container-3 {
       grid-template-columns: auto; } }
+
+.grid-container-3-patternLibrary {
+  grid-template: auto / auto auto auto;
+  grid-template-columns: auto; }
+  @media screen and (min-width: 30em) {
+    .grid-container-3-patternLibrary {
+      grid-template: auto / auto auto auto; } }
 
 .grid-container-4 {
   grid-template: auto / auto auto; }
@@ -509,6 +518,17 @@ html.no-touch .thumb-image img {
   margin-bottom: 2em;
   padding-bottom: 0; }
   .wf-loading .project-types {
+    visibility: hidden; }
+
+.project-types-roles {
+  font: 400 85%/1.4 "ff-tisa-sans-web-pro", "Helvetica Neue", Helvetica, sans-serif;
+  color: #616161;
+  text-transform: uppercase;
+  letter-spacing: .075em;
+  margin-bottom: 2em;
+  margin-top: 1.5em;
+  padding-bottom: 0; }
+  .wf-loading .project-types-roles {
     visibility: hidden; }
 
 .read-more {
