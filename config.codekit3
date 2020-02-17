@@ -1753,6 +1753,87 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/assets\/images\/munroShoes-01.jpg": {
+		"ft": 16384,
+		"iS": 751609,
+		"oA": 0,
+		"oAP": "\/assets\/images\/munroShoes-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/munroShoes-02.jpg": {
+		"ft": 16384,
+		"iS": 831530,
+		"oA": 0,
+		"oAP": "\/assets\/images\/munroShoes-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/munroShoes-audit-01.jpg": {
+		"ft": 16384,
+		"iS": 197565,
+		"oA": 0,
+		"oAP": "\/assets\/images\/munroShoes-audit-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/munroShoes-audit-02.jpg": {
+		"ft": 16384,
+		"iS": 410156,
+		"oA": 0,
+		"oAP": "\/assets\/images\/munroShoes-audit-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/munroShoes-content-and-feature-audit.jpg": {
+		"ft": 16384,
+		"iS": 469958,
+		"oA": 0,
+		"oAP": "\/assets\/images\/munroShoes-content-and-feature-audit.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/munroShoes-designsystem.jpg": {
+		"ft": 16384,
+		"iS": 498217,
+		"oA": 0,
+		"oAP": "\/assets\/images\/munroShoes-designsystem.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/munroShoes-poster.png": {
+		"ft": 32768,
+		"iS": 1224930,
+		"oA": 0,
+		"oAP": "\/assets\/images\/munroShoes-poster.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/munroShoes-thumb.jpg": {
+		"ft": 16384,
+		"iS": 256759,
+		"oA": 0,
+		"oAP": "\/assets\/images\/munroShoes-thumb.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/assets\/images\/process_01.jpg": {
 		"ft": 16384,
 		"iS": 240760,
@@ -2086,6 +2167,96 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/ricardoBeverlyHills-BrandImages-01.jpg": {
+		"ft": 16384,
+		"iS": 567455,
+		"oA": 0,
+		"oAP": "\/assets\/images\/ricardoBeverlyHills-BrandImages-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/ricardoBeverlyHills-HomeSectionsForPortfolio.jpg": {
+		"ft": 16384,
+		"iS": 3351618,
+		"oA": 0,
+		"oAP": "\/assets\/images\/ricardoBeverlyHills-HomeSectionsForPortfolio.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/ricardoBeverlyHills-pagesForPortfolio.jpg": {
+		"ft": 16384,
+		"iS": 2610953,
+		"oA": 0,
+		"oAP": "\/assets\/images\/ricardoBeverlyHills-pagesForPortfolio.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/ricardoBeverlyHills-poster.jpg": {
+		"ft": 16384,
+		"iS": 205259,
+		"oA": 0,
+		"oAP": "\/assets\/images\/ricardoBeverlyHills-poster.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/ricardoBeverlyHills-sitemap.jpg": {
+		"ft": 16384,
+		"iS": 303516,
+		"oA": 0,
+		"oAP": "\/assets\/images\/ricardoBeverlyHills-sitemap.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/ricardoBeverlyHills-thumb.jpg": {
+		"ft": 16384,
+		"iS": 258445,
+		"oA": 0,
+		"oAP": "\/assets\/images\/ricardoBeverlyHills-thumb.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/ricardoBeverlyHills-thumbnailCode.jpg": {
+		"ft": 16384,
+		"iS": 183568,
+		"oA": 0,
+		"oAP": "\/assets\/images\/ricardoBeverlyHills-thumbnailCode.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/ricardoBeverlyHills-thumbnails.jpg": {
+		"ft": 16384,
+		"iS": 247094,
+		"oA": 0,
+		"oAP": "\/assets\/images\/ricardoBeverlyHills-thumbnails.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/ricardoBeverlyHills-typestudy.jpg": {
+		"ft": 16384,
+		"iS": 834400,
+		"oA": 0,
+		"oAP": "\/assets\/images\/ricardoBeverlyHills-typestudy.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/images\/scadcoursecards_01.png": {
@@ -16473,6 +16644,23 @@
 		"oAP": "\/assets\/video\/munro-process.mp4",
 		"oF": 0
 		},
+	"\/assets\/video\/munro-shoe-finder-test.jpg": {
+		"ft": 16384,
+		"iS": 32129,
+		"oA": 0,
+		"oAP": "\/assets\/video\/munro-shoe-finder-test.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/video\/munro-shoe-finder-test.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/video\/munro-shoe-finder-test.mp4",
+		"oF": 0
+		},
 	"\/assets\/video\/recentWork-processing-02.jpg": {
 		"ft": 16384,
 		"iS": 162460,
@@ -16488,6 +16676,71 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/assets\/video\/recentWork-processing-02.mp4",
+		"oF": 0
+		},
+	"\/assets\/video\/ricardoBeverlyHills-horizontalFiltering-Cropped.jpg": {
+		"ft": 16384,
+		"iS": 532304,
+		"oA": 0,
+		"oAP": "\/assets\/video\/ricardoBeverlyHills-horizontalFiltering-Cropped.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/video\/ricardoBeverlyHills-horizontalFiltering-Cropped.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/video\/ricardoBeverlyHills-horizontalFiltering-Cropped.mp4",
+		"oF": 0
+		},
+	"\/assets\/video\/ricardoBeverlyHills-horizontalFiltering.jpg": {
+		"ft": 16384,
+		"iS": 730017,
+		"oA": 0,
+		"oAP": "\/assets\/video\/ricardoBeverlyHills-horizontalFiltering.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/video\/ricardoBeverlyHills-horizontalFiltering.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/video\/ricardoBeverlyHills-horizontalFiltering.mp4",
+		"oF": 0
+		},
+	"\/assets\/video\/ricardoBeverlyHills-pdpVideo-import.webm.xmp": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/video\/ricardoBeverlyHills-pdpVideo-import.webm.xmp",
+		"oF": 0
+		},
+	"\/assets\/video\/ricardoBeverlyHills-pdpVideo.jpg": {
+		"ft": 16384,
+		"iS": 699934,
+		"oA": 0,
+		"oAP": "\/assets\/video\/ricardoBeverlyHills-pdpVideo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/video\/ricardoBeverlyHills-pdpVideo.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/video\/ricardoBeverlyHills-pdpVideo.mp4",
+		"oF": 0
+		},
+	"\/assets\/video\/ricardoBeverlyHills-pdpVideo.webm": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/video\/ricardoBeverlyHills-pdpVideo.webm",
 		"oF": 0
 		},
 	"\/contact.html": {
@@ -17393,6 +17646,13 @@
 		"oAP": "\/mikedoughty.html",
 		"oF": 0
 		},
+	"\/munroshoes.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/munroshoes.html",
+		"oF": 0
+		},
 	"\/process.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -17423,6 +17683,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/recentwork.html",
+		"oF": 0
+		},
+	"\/ricardobeverlyhills.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/ricardobeverlyhills.html",
 		"oF": 0
 		},
 	"\/scadcoursecards.html": {
@@ -21170,6 +21437,16 @@
 		"oAP": "\/working_files\/process_images\/process_sketches.psd",
 		"oF": 0
 		},
+	"\/working_files\/Recent Work Page\/01-Assets\/content-and-feature-audit.jpg": {
+		"ft": 16384,
+		"iS": 469958,
+		"oA": 0,
+		"oAP": "\/working_files\/Recent Work Page\/01-Assets\/content-and-feature-audit.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/working_files\/Recent Work Page\/01-Assets\/OldTimeCandy-Colors.png": {
 		"ft": 32768,
 		"iS": 334813,
@@ -21213,6 +21490,30 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"\/working_files\/Recent Work Page\/01-Assets\/rbh-Aileron-010_LS_AI_R_LRez_1549755650151.jpg": {
+		"ft": 16384,
+		"iS": 366906,
+		"oA": 0,
+		"oAP": "\/working_files\/Recent Work Page\/01-Assets\/rbh-Aileron-010_LS_AI_R_LRez_1549755650151.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/working_files\/Recent Work Page\/01-Assets\/ricardoBeverlyHills-pdpVideo-import.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/working_files\/Recent Work Page\/01-Assets\/ricardoBeverlyHills-pdpVideo-import.mp4",
+		"oF": 0
+		},
+	"\/working_files\/Recent Work Page\/01-Assets\/ricardoBeverlyHills-pdpVideo.mov": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/working_files\/Recent Work Page\/01-Assets\/ricardoBeverlyHills-pdpVideo.mov",
+		"oF": 0
 		},
 	"\/working_files\/Recent Work Page\/01-Assets\/sethAkkerman-twoTidesBrewingCo-coasters01.jpg": {
 		"ft": 16384,
@@ -21321,11 +21622,109 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/working_files\/Recent Work Page\/02-Working Files\/Adobe Premiere Pro Auto-Save\/ricardoBeverlyHills-pdpPromo-2020-02-07_10-35-17.prproj": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/working_files\/Recent Work Page\/02-Working Files\/Adobe Premiere Pro Auto-Save\/ricardoBeverlyHills-pdpPromo-2020-02-07_10-35-17.prproj",
+		"oF": 0
+		},
+	"\/working_files\/Recent Work Page\/02-Working Files\/Adobe Premiere Pro Auto-Save\/ricardoBeverlyHills-pdpPromo.prproj": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/working_files\/Recent Work Page\/02-Working Files\/Adobe Premiere Pro Auto-Save\/ricardoBeverlyHills-pdpPromo.prproj",
+		"oF": 0
+		},
+	"\/working_files\/Recent Work Page\/02-Working Files\/munro-design-system.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/working_files\/Recent Work Page\/02-Working Files\/munro-design-system.psd",
+		"oF": 0
+		},
+	"\/working_files\/Recent Work Page\/02-Working Files\/munroShoes-BrandImages.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/working_files\/Recent Work Page\/02-Working Files\/munroShoes-BrandImages.psd",
+		"oF": 0
+		},
+	"\/working_files\/Recent Work Page\/02-Working Files\/munroShoes-mobileMockups.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/working_files\/Recent Work Page\/02-Working Files\/munroShoes-mobileMockups.psd",
+		"oF": 0
+		},
+	"\/working_files\/Recent Work Page\/02-Working Files\/munroShoes-thumb-monotone.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/working_files\/Recent Work Page\/02-Working Files\/munroShoes-thumb-monotone.psd",
+		"oF": 0
+		},
+	"\/working_files\/Recent Work Page\/02-Working Files\/munroShoes-thumb.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/working_files\/Recent Work Page\/02-Working Files\/munroShoes-thumb.psd",
+		"oF": 0
+		},
+	"\/working_files\/Recent Work Page\/02-Working Files\/Ricardo-Beverly-Hills-Main (Master @ b0c63d0).sketch": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/working_files\/Recent Work Page\/02-Working Files\/Ricardo-Beverly-Hills-Main (Master @ b0c63d0).sketch",
+		"oF": 0
+		},
+	"\/working_files\/Recent Work Page\/02-Working Files\/ricardoBeverlyHills-BrandImages.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/working_files\/Recent Work Page\/02-Working Files\/ricardoBeverlyHills-BrandImages.psd",
+		"oF": 0
+		},
+	"\/working_files\/Recent Work Page\/02-Working Files\/ricardoBeverlyHills-pdpPromo.prproj": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/working_files\/Recent Work Page\/02-Working Files\/ricardoBeverlyHills-pdpPromo.prproj",
+		"oF": 0
+		},
+	"\/working_files\/Recent Work Page\/02-Working Files\/ricardoBeverlyHills-thumb.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/working_files\/Recent Work Page\/02-Working Files\/ricardoBeverlyHills-thumb.psd",
+		"oF": 0
+		},
+	"\/working_files\/Recent Work Page\/02-Working Files\/ricardoBeverlyHills-thumbnailCode.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/working_files\/Recent Work Page\/02-Working Files\/ricardoBeverlyHills-thumbnailCode.psd",
+		"oF": 0
+		},
+	"\/working_files\/Recent Work Page\/02-Working Files\/ricardoBeverlyHills-thumbnails.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/working_files\/Recent Work Page\/02-Working Files\/ricardoBeverlyHills-thumbnails.psd",
+		"oF": 0
+		},
 	"\/working_files\/Recent Work Page\/02-Working Files\/sethakkerman-duckHead.psd": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/working_files\/Recent Work Page\/02-Working Files\/sethakkerman-duckHead.psd",
+		"oF": 0
+		},
+	"\/working_files\/Recent Work Page\/02-Working Files\/sethakkerman-munroShoes-poster.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/working_files\/Recent Work Page\/02-Working Files\/sethakkerman-munroShoes-poster.psd",
 		"oF": 0
 		},
 	"\/working_files\/Recent Work Page\/02-Working Files\/sethakkerman-munroShoes.psd": {
@@ -21435,6 +21834,13 @@
 		"opt": 1,
 		"oT": 1,
 		"q": 100
+		},
+	"\/working_files\/Recent Work Page\/02-Working Files\/sethakkerman-ricardoBeverlyHills-poster.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/working_files\/Recent Work Page\/02-Working Files\/sethakkerman-ricardoBeverlyHills-poster.psd",
+		"oF": 0
 		},
 	"\/working_files\/Recent Work Page\/02-Working Files\/sethakkerman-southernTide.psd": {
 		"cB": 0,
