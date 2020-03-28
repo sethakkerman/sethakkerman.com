@@ -1105,6 +1105,76 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/assets\/images\/cheapjoes-icons.jpg": {
+		"ft": 16384,
+		"iS": 187460,
+		"oA": 0,
+		"oAP": "\/assets\/images\/cheapjoes-icons.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/cheapjoes-mobileheaders.jpg": {
+		"ft": 16384,
+		"iS": 201719,
+		"oA": 0,
+		"oAP": "\/assets\/images\/cheapjoes-mobileheaders.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/cheapJoes-mobileMockups.jpg": {
+		"ft": 16384,
+		"iS": 826436,
+		"oA": 0,
+		"oAP": "\/assets\/images\/cheapJoes-mobileMockups.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/cheapJoes-poster.jpg": {
+		"ft": 16384,
+		"iS": 406270,
+		"oA": 0,
+		"oAP": "\/assets\/images\/cheapJoes-poster.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/cheapJoes-thumb.jpg": {
+		"ft": 16384,
+		"iS": 225772,
+		"oA": 0,
+		"oAP": "\/assets\/images\/cheapJoes-thumb.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/cjas-content-feature-map.jpg": {
+		"ft": 16384,
+		"iS": 2774192,
+		"oA": 0,
+		"oAP": "\/assets\/images\/cjas-content-feature-map.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/cjas-grouped-product-mobile.jpg": {
+		"ft": 16384,
+		"iS": 197232,
+		"oA": 0,
+		"oAP": "\/assets\/images\/cjas-grouped-product-mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/assets\/images\/contact_poster.jpg": {
 		"ft": 16384,
 		"iS": 225998,
@@ -16562,6 +16632,40 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/video\/cjas-joes-quotes.jpg": {
+		"ft": 16384,
+		"iS": 255895,
+		"oA": 0,
+		"oAP": "\/assets\/video\/cjas-joes-quotes.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/video\/cjas-joes-quotes.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/video\/cjas-joes-quotes.mp4",
+		"oF": 0
+		},
+	"\/assets\/video\/cjas-mobile-navigation-prototype.jpg": {
+		"ft": 16384,
+		"iS": 198482,
+		"oA": 0,
+		"oAP": "\/assets\/video\/cjas-mobile-navigation-prototype.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/video\/cjas-mobile-navigation-prototype.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/video\/cjas-mobile-navigation-prototype.mp4",
+		"oF": 0
+		},
 	"\/assets\/video\/coursecard_colorvariations.jpg": {
 		"ft": 16384,
 		"iS": 206440,
@@ -16741,6 +16845,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/assets\/video\/ricardoBeverlyHills-pdpVideo.webm",
+		"oF": 0
+		},
+	"\/cheapjoesartstuff.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/cheapjoesartstuff.html",
 		"oF": 0
 		},
 	"\/contact.html": {
@@ -21713,6 +21824,13 @@
 		"oAP": "\/working_files\/Recent Work Page\/02-Working Files\/ricardoBeverlyHills-thumbnails.psd",
 		"oF": 0
 		},
+	"\/working_files\/Recent Work Page\/02-Working Files\/sethakkerman-cheapjoes-poster.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/working_files\/Recent Work Page\/02-Working Files\/sethakkerman-cheapjoes-poster.psd",
+		"oF": 0
+		},
 	"\/working_files\/Recent Work Page\/02-Working Files\/sethakkerman-duckHead.psd": {
 		"cB": 0,
 		"ft": 8192,
@@ -21855,6 +21973,17 @@
 		"oA": 0,
 		"oAP": "\/working_files\/Recent Work Page\/02-Working Files\/tt-logos.ai",
 		"oF": 0
+		},
+	"\/working_files\/Recent Work Page\/03-Output\/ricardoBeverlyHills-thumbnailCode-forDeck.png": {
+		"ft": 32768,
+		"iS": 387742,
+		"oA": 0,
+		"oAP": "\/working_files\/Recent Work Page\/03-Output\/ricardoBeverlyHills-thumbnailCode-forDeck.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/working_files\/sethakkerman-mid2018.sketch": {
 		"cB": 0,
