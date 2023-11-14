@@ -22,6 +22,7 @@ Well hello there! Thanks for taking a look around. If you are curious about the 
 // 07 Poster Image Centering / Cropping
 // 08 Mike Doughty Owl Interaction
 // 09 Flexslider
+// 10 Tooltip
 // ==========================================================================
 
 // =========================
@@ -42,12 +43,14 @@ Well hello there! Thanks for taking a look around. If you are curious about the 
 // These values aside from color should be reflected in the .copyright
 @mixin small-sub-text {
 	font: 400 85%/1.4 $font-sans;
+	font-variation-settings: "ital" 0, "opsz" 16, "wght" 500;
 	color:rgba(97,97,97,1.0);
 	text-transform:uppercase;
-	letter-spacing:.075em;
+	letter-spacing:.05em;
 }
 @mixin general-header-qualities {
-	font-weight:700;
+	font-variation-settings: "ital" 0, "opsz" 24, "wght" 700;
+	line-height: 1.1em;
 	font-style:normal;
 	-webkit-transition: all .2s ease-in-out;
   	-moz-transition: all .2s ease-in-out;
@@ -70,8 +73,8 @@ $width-tiny: 30em;
 // 900px / 16 = 56.250em
 $width-medium: 56.250em; 
 $width-max: 90em;
-$font-sans: "ff-tisa-sans-web-pro","Helvetica Neue",Helvetica,sans-serif;
-$font-serif: "ff-tisa-web-pro",Georgia,serif;
+$font-sans: "degular-variable",sans-serif;
+$font-arrow: "degular",sans-serif;
 // This number should be reflected in .left_container, .right_container, and .bottom-nav as well.
 $section-spacing-wide: 2.5em; 
 //This number should be reflected in button.show-me-more as well.
@@ -79,7 +82,7 @@ $section-spacing-narrow: 1.75em;
 $section-spacing-narrow-runningtext: 1.4em;
 $wide-padding-topbottom: 2.5em;
 $hover: 0.95;
-$seth-brand-color: rgba(60,184,120,1.0);
+$seth-brand-color: hsla(149,83%,92%,1.0);
 
 // =========================
 //	04 Typography
@@ -92,20 +95,21 @@ html {
 	-webkit-font-smoothing:antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
-body { 
-	font:400 100%/1.60 $font-serif;
+body {
+	font:500 100%/1.60 $font-sans;
+	font-variation-settings: "ital" 0, "opsz" 24, "wght" 400;
 	color:rgba(33,33,33,1.0);
 	text-rendering:optimizeLegibility;
 	@include preventFOUT;
 }
-h1, h2 {
+h1 {
 	font-size: 150%;	
 	@include general-header-qualities;
 	@media screen and (min-width: $width-medium) { 
 		font-size: 175%;
 	}
 }	
-h3 {
+h2 {
 	font-size: 150%;	
 	@include general-header-qualities;
 	@media screen and (min-width: $width-medium) { 
@@ -164,8 +168,16 @@ em {
 	font-style:italic;	
 }
 
+strong {
+	font-variation-settings: "ital" 0, "opsz" 24, "wght" 700; ;
+}
+
 .darker-highlight {
 	color:rgba(0,0,0,1.0);	
+}
+
+.arrow {
+	font-family: $font-arrow;
 }
 
 // =========================
@@ -192,7 +204,7 @@ li { position:relative; }
 body { padding:0; margin:0;	background-color: rgba(255,255,255,1.0); }
 
 header {
-	padding: $section-spacing-narrow; margin:0 auto;
+	padding: 3.5em 1.75em 4.5em 1.75em; /*$section-spacing-narrow;*/ margin:0 auto;
 	@media screen and (min-width: $width-tiny) { 
 		padding: 3.5em 2.5em 3.5em 2.5em;
 	}
@@ -200,7 +212,7 @@ header {
 		color:$seth-brand-color;
 	}
 	@media screen and (min-width: $width-medium) { 	
-		//width:90%;
+		
 	}
 }
 .documentation {
@@ -219,10 +231,10 @@ header {
 		padding-bottom:5em;
 	}
 	& a {
-		color:$seth-brand-color;	
+		color:rgba(61,61,61,0.70);;	
 	}
 	&.process {
-		h3.title {
+		h2.title {
 			border-bottom:none;	
 		}
 		.project-detail-heading {
@@ -238,7 +250,7 @@ header {
 	&.index{
 		padding-top:0;
 		@media screen and (min-width: $width-medium) {
-			padding-top:2.5em;
+			padding-top:0; //was 2.5em;
 		}
 	}
 }
@@ -304,16 +316,17 @@ a { text-decoration:none;
   	transition: all .2s ease-in-out; 
 }
 
-h2 + p, h2 + ul {
+h1 + p, h1 + ul {
 	padding-left:0; //was .6em
 	padding-right:0;	 //was .6em
 		@media screen and (min-width: $width-medium) { 
 			padding-left:.1em;
 			padding-right:.1em;		
-		}		
+		}
+	max-width:33em;	
 }
 
-h3 + p, h3 + ul, h3 + p + p {
+h2 + p, h2 + ul, h2 + p + p {
 	padding-left:0; //was .6em
 	padding-right:0;	 //was .6em
 	padding-top:.25em;
@@ -363,9 +376,9 @@ h3 + p, h3 + ul, h3 + p + p {
 }
 .thumb-text-wrap {
 	padding: $section-spacing-narrow;	 //was 1.4em
-	h3 {
+	h2 {
 		color:rgba(33,33,33,1.0);
-		line-height:1.33em;	
+		line-height:1.1em;	
 	}
 	@media screen and (min-width: $width-medium) { 
 		padding:.75em 0 0 0;
@@ -375,7 +388,7 @@ h3 + p, h3 + ul, h3 + p + p {
 	width:100%;
 	display:table-cell;
 	float:left;
-	vertical-align:middle;
+	vertical-align:top; //was middle
 	img {
 		width:100%;
 	}
@@ -391,11 +404,16 @@ h3 + p, h3 + ul, h3 + p + p {
 		-moz-transform: scale3d(1.0,1.0,1.0);
 		-o-transform: scale3d(1.0,1.0,1.0);
 		transform: scale3d(1.0,1.0,1.0);
+		@media screen and (min-width: $width-medium) {
+			@include rounded(8px);
+		}
 	}
+	
 }
 .thumb-image-left {
 	@media screen and (min-width: $width-medium) {
 		padding: 2.5em 1.25em 0em 2.5em;
+		
 	}
 }
 .thumb-image-right {
@@ -428,10 +446,11 @@ html.no-touch .thumb-image img {
 				font-size:140%; //was 160%
 			}
 			& a {
-				color:$seth-brand-color;
+				color:rgba(61,61,61,0.70);
+				border-bottom:1px solid rgba(61,61,61,0.70);
 					html.no-touch &:hover {
 	    			color:rgba(0,0,0,1.0);
-	    			border-bottom:none;	
+	    			border-bottom:1px solid rgba(0,0,0,1.0);	
 					}
 				}
 		}
@@ -440,6 +459,13 @@ html.no-touch .thumb-image img {
 			@media screen and (min-width: $width-medium) {
 				margin-bottom:5em;
 				padding: 7% 25%;
+			}
+		}
+		&.ultra-wide-callout {
+			margin-bottom:2.5em;
+			@media screen and (min-width: $width-medium) {
+				margin-bottom:5em;
+				padding: 7% 15%;
 			}
 		}
 		&.project-callout-white {
@@ -454,6 +480,32 @@ html.no-touch .thumb-image img {
 		}
 		img{width:100%;}
 }
+.contact-callout {
+	background-color: $seth-brand-color;
+	border:1px solid hsla(149,83%,65%,1.0);
+	border-radius: 8px;
+	padding:32px 32px 8px 32px;
+	& a {
+		color:rgba(61,61,61,0.70);
+		border-bottom:1px solid rgba(61,61,61,0.70);
+			html.no-touch &:hover {
+			color:rgba(0,0,0,1.0);
+			border-bottom:1px solid rgba(0,0,0,1.0);	
+			}
+		}
+
+}
+/* .contact-callout-container {
+	position:sticky;
+	bottom: -400px;
+	-webkit-transition: all .2s ease-in-out;
+  	-moz-transition: all .2s ease-in-out;
+  	-o-transition: all .2s ease-in-out;
+  	transition: all .2s ease-in-out;
+}
+.mobiletooltip {
+    pointer-events: none;
+} */
 .column-1-of-3 {
 	display:table-cell;
 	width:100%;
@@ -620,19 +672,21 @@ html.no-touch .thumb-image img {
 }
 button {
 	color: rgba(81,81,81,1.0);  
-	@include rounded(6px);
-	font-family:$font-sans;
+	@include rounded(28px);
+	font-family:$font-sans, $font-arrow;
 	@include preventFOUT;
-	font-size:100%;
+	font-size:120%;
+	font-variation-settings: "ital" 0, "opsz" 19, "wght" 500;
 	padding:.75em 1.5em;
-	cursor:pointer;
-	border:1px solid rgba(81,81,81,1.0);
+	cursor: pointer;
+	line-height: 24px;
+	background-color: $seth-brand-color;
+	border:1px solid hsla(149,83%,65%,1.0);
 	-webkit-transition: all .2s ease-in-out;
   	-moz-transition: all .2s ease-in-out;
   	-o-transition: all .2s ease-in-out;
   	transition: all .2s ease-in-out;
 	display:block;
-	margin:0 auto;
 	&.show-me-more {
 		color: rgba(81,81,81,1.0);
 		border:1px solid rgba(81,81,81,1.0);
@@ -641,18 +695,20 @@ button {
 			display:none;
 		}
 		html.no-touch &:hover {
-		background-color: rgba(81,81,81,1.0);
-		color:rgba(255,255,255,1.0);
-		border:1px solid rgba(81,81,81,1.0);		
+		background-color: hsla(149,83%,65%,1.0);
+		color: rgba(81,81,81,1.0); 		
 		}	
 	}
 	html.no-touch &:hover {
-		background-color: rgba(81,81,81,1.0);
-		color:rgba(255,255,255,1.0);
-		border:1px solid rgba(81,81,81,1.0);		
+		background-color: hsla(149,83%,65%,1.0);
+		color: rgba(81,81,81,1.0);		
 	}
 	&:focus {
 		outline:none;	
+	}
+	&.secondary {
+		background-color:hsla(0,100%,100%,1.0);
+		border: 1px solid hsla(0,100%,100%,1.0);
 	}
 }
 
@@ -677,6 +733,7 @@ button {
 
 ul li a {
 	color:rgba(61,61,61,0.70);
+	font-variation-settings: "ital" 0, "opsz" 19, "wght" 400;
 	-webkit-transition: all .1s ease-in-out;
   	-moz-transition: all .1s ease-in-out;
   	-o-transition: all .1s ease-in-out;
@@ -686,8 +743,8 @@ ul li a {
 		color:rgba(0,0,0,1.0);	
 	}
 	html.no-touch &:hover {
-		color:$seth-brand-color;
-    border-bottom:1px solid	$seth-brand-color;
+		color:rgba(0,0,0,1.0);
+    	border-bottom:1px solid	rgba(0,0,0,1.0);;
 	}
 }
 
@@ -1125,4 +1182,40 @@ html[xmlns] .slides {display: block;}
 	float: right;
 	margin: 9px 18px 0 0;
 	background: url('../icons/arrow-navigation.png') no-repeat left center;
+}
+
+// ======================================
+//	10 Tooltip
+// ======================================
+
+.tooltip {
+    text-decoration:none;
+    position:relative;
+}
+.tooltip-span {
+    position: absolute;
+    pointer-events: none; /* Ensures it doesn't interfere with other mouse events */
+    visibility: hidden;
+    z-index: 1000; /* Keeps it above other elements */
+}
+
+.tooltip:hover span {
+    position:fixed;
+    overflow:hidden;
+	display: flex;
+	padding: 5px 10px;
+	align-items: flex-start;
+	gap: 8px;
+	border-radius: 15px;
+	background: rgba(0, 0, 0, 0.75);
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+	color: white;
+	font: $font-sans;
+	font-variation-settings: "ital" 0, "opsz" 142 "wght" 500;
+	text-transform: uppercase;
+	z-index: 10;
+	letter-spacing: 1.25px;
+	font-style: normal;
+	line-height:20px;
+	font-size:12px;
 }
