@@ -23,6 +23,7 @@ Well hello there! Thanks for taking a look around. If you are curious about the 
 // 08 Mike Doughty Owl Interaction
 // 09 Flexslider
 // 10 Tooltip
+// 11 Fade-In Animation
 // ==========================================================================
 
 // =========================
@@ -467,6 +468,9 @@ html.no-touch .thumb-image img {
 				margin-bottom:5em;
 				padding: 7% 15%;
 			}
+			&.contact-callout-container{
+				margin-bottom:0;
+			}
 		}
 		&.project-callout-white {
 			margin-bottom:1em;
@@ -710,6 +714,10 @@ button {
 		background-color:hsla(0,100%,100%,1.0);
 		border: 1px solid hsla(0,100%,100%,1.0);
 	}
+	&.tertiary {
+		background-color:hsla(0,100%,100%,1.0);
+		border: 1px solid hsla(149,83%,65%,1.0);
+	}
 }
 
 .documentation ul {
@@ -759,11 +767,15 @@ ul li a {
 	margin-top:0;
 	text-align:center;
 	padding:2.5em 0;
+	display:flex;
+	justify-content: center;
+	flex-direction:column;
 	@media screen and (min-width: $width-medium) { 
 			padding: $section-spacing-wide;
 	}
 	button {
 		display:inline;	
+		width:fit-content;
 		&.previous {
 			margin-right:.5em;	
 		}
@@ -776,6 +788,14 @@ ul li a {
 		@media screen and (min-width: $width-medium) { 
 			display:inline;
 	}
+	}
+	&.interior {
+		flex-direction:row;
+	}
+	.footer-button {
+		width:fit-content;
+		margin:0 auto;
+		margin-bottom:2em;
 	}
 }
 
@@ -1218,4 +1238,20 @@ html[xmlns] .slides {display: block;}
 	font-style: normal;
 	line-height:20px;
 	font-size:12px;
+}
+
+// ======================================
+//	11 Fade-In Animations
+// ======================================
+
+/* Fade-in animation */
+.fade-in {
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
 }

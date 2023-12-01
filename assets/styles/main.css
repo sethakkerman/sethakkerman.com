@@ -516,6 +516,9 @@ html.no-touch .project-callout-shell .project-callout a:hover {
     padding: 7% 15%;
   }
 }
+.project-callout-shell.ultra-wide-callout.contact-callout-container {
+  margin-bottom: 0;
+}
 .project-callout-shell.project-callout-white {
   margin-bottom: 1em;
 }
@@ -841,6 +844,10 @@ button.secondary {
   background-color: hsl(0, 100%, 100%);
   border: 1px solid hsl(0, 100%, 100%);
 }
+button.tertiary {
+  background-color: hsl(0, 100%, 100%);
+  border: 1px solid hsl(149, 83%, 65%);
+}
 
 .documentation ul li {
   padding-bottom: 0.5em;
@@ -886,6 +893,9 @@ html.no-touch ul li a:hover {
   margin-top: 0;
   text-align: center;
   padding: 2.5em 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 @media screen and (min-width: 56.25em) {
   .bottom-nav {
@@ -894,6 +904,7 @@ html.no-touch ul li a:hover {
 }
 .bottom-nav button {
   display: inline;
+  width: fit-content;
 }
 .bottom-nav button.previous {
   margin-right: 0.5em;
@@ -908,6 +919,14 @@ html.no-touch ul li a:hover {
   .bottom-nav .bottom-nav-text {
     display: inline;
   }
+}
+.bottom-nav.interior {
+  flex-direction: row;
+}
+.bottom-nav .footer-button {
+  width: fit-content;
+  margin: 0 auto;
+  margin-bottom: 2em;
 }
 
 footer {
@@ -1451,6 +1470,22 @@ html[xmlns] .slides {
   font-style: normal;
   line-height: 20px;
   font-size: 12px;
+}
+
+/* Fade-in animation */
+.fade-in {
+  animation: fadeInAnimation ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
